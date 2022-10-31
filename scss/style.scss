@@ -12,3 +12,34 @@
     text-decoration: none;
     transition: all .2s linear;
 }
+
+$verde: #0eb582;
+$verde-claro: #f0fdfa;
+$cor-clara: #777;
+$branco-claro: #eee;
+$preto: #444;
+$branco: #fff;
+$borda: .1rem solid $verde;
+$box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+
+@mixin grid($val) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
+    gap: 2rem;
+    
+}
+
+@mixin tituloTexto($tituloSize) {
+    font-size: $tituloSize;
+    color: $preto;
+}
+
+@mixin graphTexto($graphSize) {
+    font-size: $graphSize;
+    line-height: 2;
+    color: $branco-claro;
+}
+
+html{
+    font-size: 62.5%;
+}
