@@ -42,4 +42,17 @@ $box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 
 html{
     font-size: 62.5%;
+    overflow-x: hidden;
+
+    &::-webkit-scrollbar{
+        width: 1rem;
+    }
+
+    &::-webkit-scrollbar-track{
+        background: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb{
+        background: $verde;
+    }
 }
