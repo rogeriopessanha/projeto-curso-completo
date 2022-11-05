@@ -195,16 +195,39 @@ section {
   color: #444;
   padding: 1rem 0;
 }
-.footer .box-container .box .links {
+.footer .box-container .box .link {
   font-size: 1.5rem;
   line-height: 2;
-  color: #eee;
+  color: #444;
   padding: 0.5rem 0;
   display: block;
 }
-.footer .box-container .box .links:hover {
+.footer .box-container .box .link:hover {
   color: #0eb582;
   text-decoration: underline;
+}
+.footer .box-container .box p {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #444;
+  padding: 1rem 0;
+}
+.footer .box-container .box .email {
+  width: 100%;
+  padding: 1.2rem 1.4rem;
+  font-size: 1.6rem;
+  border: 0.1rem solid #0eb582;
+  margin-bottom: 1rem;
+}
+.footer .credito {
+  text-align: center;
+  margin-top: 3rem;
+  padding-top: 3rem;
+  font-size: 2rem;
+  color: #444;
+}
+.footer .credito span {
+  color: #0eb582;
 }
 
 @media (max-width: 1200px) {

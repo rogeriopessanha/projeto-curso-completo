@@ -37,7 +37,7 @@ $box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 @mixin graphTexto($graphSize) {
     font-size: $graphSize;
     line-height: 2;
-    color: $branco-claro;
+    color: $preto;
 }
 
 html{
@@ -275,7 +275,7 @@ section{
                 padding: 1rem 0;
             }
 
-            .links{
+            .link{
                 @include graphTexto(1.5rem);
                 padding: .5rem 0;
                 display: block;
@@ -285,6 +285,30 @@ section{
                     text-decoration: underline;
                 }
             }
+
+            p{
+                @include graphTexto(1.5rem);
+                padding: 1rem 0;
+            }
+
+            .email{
+                width: 100%;
+                padding: 1.2rem 1.4rem;
+                font-size: 1.6rem;
+                border: $borda;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+
+    .credito{
+        text-align: center;
+        margin-top: 3rem;
+        padding-top: 3rem;
+        @include tituloTexto(2rem);
+
+        span{
+            color: $verde;
         }
     }
 }
