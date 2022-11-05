@@ -248,16 +248,12 @@ section{
 
         .content{
             width: 50rem;
-            // position: absolute;
-            // bottom: 10rem;
-            // left: 1rem;
-            padding: 1rem;
-            background: rgba(119, 119, 119, 0.578);
+            // background: rgba(119, 119, 119, 0.578);
 
             h3{
                 @include tituloTexto(5rem);
                 color: $verde;
-                font-weight: bolder
+                
             }
 
             p{
@@ -449,6 +445,10 @@ section{
                 font-size: 3rem;
             }
         }
+    }
+
+    .inicio .slide .content h3{
+        font-size: 3rem;
     }
 }
 
