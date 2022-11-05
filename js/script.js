@@ -35,3 +35,20 @@ document.querySelector('#conta-btn').onclick = () =>{
 document.querySelector('#close-form').onclick = () =>{
     contaForm.classList.remove('active');
 }
+
+
+var swiper = new Swiper(".inicio-slider", {
+    slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable:true,
+    },
+    loop:true,
+    grabCursor:true,
+    autoplay: {
+        delay: 8500,
+        disableOnInteraction: false,
+    },
+  });

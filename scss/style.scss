@@ -242,25 +242,37 @@ section{
     .slide{
         display: flex;
         align-items: center;
-        height: 60rem;
+        height: 50rem;
         background-size: cover !important;
         background-position: center !important;
 
         .content{
             width: 50rem;
+            // position: absolute;
+            // bottom: 10rem;
+            // left: 1rem;
+            padding: 1rem;
+            background: rgba(119, 119, 119, 0.578);
 
             h3{
                 @include tituloTexto(5rem);
-                color: $branco;
+                color: $verde;
+                font-weight: bolder
             }
 
             p{
                 @include graphTexto(1.6rem);
                 color: $branco-claro;
                 padding: 1rem 0;
+                font-weight: bolder;
             }
+
         }
     }
+}
+
+.swiper-pagination-bullet-active{
+    background: $verde;
 }
 
 

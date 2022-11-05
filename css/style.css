@@ -188,17 +188,20 @@ section {
 .inicio .slide {
   display: flex;
   align-items: center;
-  height: 60rem;
+  height: 50rem;
   background-size: cover !important;
   background-position: center !important;
 }
 .inicio .slide .content {
   width: 50rem;
+  padding: 1rem;
+  background: rgba(119, 119, 119, 0.578);
 }
 .inicio .slide .content h3 {
   font-size: 5rem;
   color: #444;
-  color: #fff;
+  color: #0eb582;
+  font-weight: bolder;
 }
 .inicio .slide .content p {
   font-size: 1.6rem;
@@ -206,6 +209,11 @@ section {
   color: #444;
   color: #eee;
   padding: 1rem 0;
+  font-weight: bolder;
+}
+
+.swiper-pagination-bullet-active {
+  background: #0eb582;
 }
 
 .footer {
