@@ -140,7 +140,7 @@ html{
 
 .conta-form{
     position: fixed;
-    top: 0; right: 0; 
+    top: 0; right: -105%; 
     width: 35rem;
     background: $branco;
     display: flex;
@@ -148,10 +148,14 @@ html{
     gap: 2rem;
     justify-content: center;
     height: 100%;
-    box-shadow: 0 0 0 100vw rgba(0, 0, 0, .8);
     z-index: 1200;
     padding: 2rem;
     text-align: center;
+
+    &.active{
+        right: 0;
+        box-shadow: 0 0 0 100vw rgba(0, 0, 0, .8);
+    }
 
     #close-form{
         position: absolute;

@@ -25,3 +25,13 @@ loginBtn.onclick = () =>{
     document.querySelector('.conta-form .login-form').classList.add('active');
     document.querySelector('.conta-form .cadastrar-form').classList.remove('active');
 }
+
+let contaForm = document.querySelector('.conta-form')
+
+document.querySelector('#menu-btn').onclick = () =>{
+    contaForm.classList.add('active');
+}
+
+document.querySelector('#close-navbar').onclick = () =>{
+    contaForm.classList.remove('active');
+}

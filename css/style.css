@@ -99,7 +99,7 @@ html::-webkit-scrollbar-thumb {
 .conta-form {
   position: fixed;
   top: 0;
-  right: 0;
+  right: -105%;
   width: 35rem;
   background: #fff;
   display: flex;
@@ -107,10 +107,13 @@ html::-webkit-scrollbar-thumb {
   gap: 2rem;
   justify-content: center;
   height: 100%;
-  box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
   z-index: 1200;
   padding: 2rem;
   text-align: center;
+}
+.conta-form.active {
+  right: 0;
+  box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
 }
 .conta-form #close-form {
   position: absolute;
