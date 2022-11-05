@@ -195,6 +195,17 @@ section {
   color: #444;
   padding: 1rem 0;
 }
+.footer .box-container .box .links {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #eee;
+  padding: 0.5rem 0;
+  display: block;
+}
+.footer .box-container .box .links:hover {
+  color: #0eb582;
+  text-decoration: underline;
+}
 
 @media (max-width: 1200px) {
   .header {
