@@ -168,6 +168,11 @@ html{
     form{
         border: $borda;
         padding: 2rem;
+        display: none;
+
+        &.active{
+            display: block
+        }
 
         h3{
             @include tituloTexto(2.5rem);
@@ -214,6 +219,11 @@ html{
 
     .botao .btn{
         margin: 0 .5rem;
+
+        &.active{
+            background: $verde;
+            color: $branco;
+        }
     }
 }
 
