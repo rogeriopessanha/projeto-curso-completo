@@ -195,6 +195,22 @@ section {
   color: #444;
   padding: 1rem 0;
 }
+.footer .box-container .box .redes-social {
+  margin-top: 1rem;
+}
+.footer .box-container .box .redes-social a {
+  height: 3.5rem;
+  width: 3.5rem;
+  line-height: 3.5rem;
+  font-size: 1.7rem;
+  background: #0eb582;
+  color: #fff;
+  margin-right: 0.3rem;
+  text-align: center;
+}
+.footer .box-container .box .redes-social a:hover {
+  background: #444;
+}
 .footer .box-container .box .link {
   font-size: 1.5rem;
   line-height: 2;
@@ -225,6 +241,7 @@ section {
   padding-top: 3rem;
   font-size: 2rem;
   color: #444;
+  border-top: 0.1rem solid #0eb582;
 }
 .footer .credito span {
   color: #0eb582;

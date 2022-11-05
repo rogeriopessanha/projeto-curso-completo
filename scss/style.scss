@@ -275,6 +275,25 @@ section{
                 padding: 1rem 0;
             }
 
+            .redes-social{
+                margin-top: 1rem;
+
+                a{
+                    height: 3.5rem;
+                    width: 3.5rem;
+                    line-height: 3.5rem;
+                    font-size: 1.7rem;
+                    background: $verde;
+                    color: $branco;
+                    margin-right: .3rem;
+                    text-align: center;
+
+                    &:hover{
+                        background: $preto;
+                    }
+                }
+            }
+
             .link{
                 @include graphTexto(1.5rem);
                 padding: .5rem 0;
@@ -306,6 +325,7 @@ section{
         margin-top: 3rem;
         padding-top: 3rem;
         @include tituloTexto(2rem);
+        border-top: $borda;
 
         span{
             color: $verde;
