@@ -160,9 +160,34 @@ html{
 
         .box{
             width: 100%;
-            border: 1.2rem 1.4rem;
+            padding: 1.2rem 1.4rem;
+            border: $borda;
             font-size: 1.6rem;
             margin: .7rem 0;
+        }
+
+        .flex{
+            display: flex;
+            align-items: center;
+            padding: 1rem 0;
+            gap: .5rem;
+
+            label{
+                font-size: 1.5rem;
+                color: $cor-clara;
+                cursor: pointer;
+            }
+
+            a{
+                font-size: 1.5rem;
+                color: $cor-clara;
+                margin-left: auto;
+                
+                &:hover{
+                    text-decoration: underline;
+                    color: $verde;
+                }
+            }
         }
     }
 }

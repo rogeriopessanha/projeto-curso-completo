@@ -120,9 +120,30 @@ html::-webkit-scrollbar-thumb {
 }
 .conta-form form .box {
   width: 100%;
-  border: 1.2rem 1.4rem;
+  padding: 1.2rem 1.4rem;
+  border: 0.1rem solid #0eb582;
   font-size: 1.6rem;
   margin: 0.7rem 0;
+}
+.conta-form form .flex {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+  gap: 0.5rem;
+}
+.conta-form form .flex label {
+  font-size: 1.5rem;
+  color: #777;
+  cursor: pointer;
+}
+.conta-form form .flex a {
+  font-size: 1.5rem;
+  color: #777;
+  margin-left: auto;
+}
+.conta-form form .flex a:hover {
+  text-decoration: underline;
+  color: #0eb582;
 }
 
 @media (max-width: 1200px) {
