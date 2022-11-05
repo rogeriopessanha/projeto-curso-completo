@@ -273,6 +273,10 @@ section{
             h3{
                 @include tituloTexto(2.2rem);
                 padding: 1rem 0;
+
+                i{
+                    color: $verde;
+                }
             }
 
             .redes-social{

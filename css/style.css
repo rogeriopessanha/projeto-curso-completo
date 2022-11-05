@@ -195,6 +195,9 @@ section {
   color: #444;
   padding: 1rem 0;
 }
+.footer .box-container .box h3 i {
+  color: #0eb582;
+}
 .footer .box-container .box .redes-social {
   margin-top: 1rem;
 }
