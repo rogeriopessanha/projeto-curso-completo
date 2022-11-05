@@ -112,6 +112,18 @@ html::-webkit-scrollbar-thumb {
   padding: 2rem;
   text-align: center;
 }
+.conta-form form h3 {
+  font-size: 2.5rem;
+  color: #444;
+  padding-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+.conta-form form .box {
+  width: 100%;
+  border: 1.2rem 1.4rem;
+  font-size: 1.6rem;
+  margin: 0.7rem 0;
+}
 
 @media (max-width: 1200px) {
   .header {
