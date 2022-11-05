@@ -188,7 +188,7 @@ section {
 .inicio .slide {
   display: flex;
   align-items: center;
-  height: 50rem;
+  height: 60rem;
   background-size: cover !important;
   background-position: center !important;
 }
@@ -206,7 +206,6 @@ section {
   color: #444;
   color: #eee;
   padding: 1rem 0;
-  font-weight: bolder;
 }
 
 .swiper-pagination-bullet-active {

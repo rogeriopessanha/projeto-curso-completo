@@ -242,7 +242,7 @@ section{
     .slide{
         display: flex;
         align-items: center;
-        height: 50rem;
+        height: 60rem;
         background-size: cover !important;
         background-position: center !important;
 
@@ -260,7 +260,6 @@ section{
                 @include graphTexto(1.6rem);
                 color: $branco-claro;
                 padding: 1rem 0;
-                font-weight: bolder;
             }
 
         }
