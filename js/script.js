@@ -28,10 +28,10 @@ loginBtn.onclick = () =>{
 
 let contaForm = document.querySelector('.conta-form')
 
-document.querySelector('#menu-btn').onclick = () =>{
+document.querySelector('#conta-btn').onclick = () =>{
     contaForm.classList.add('active');
 }
 
-document.querySelector('#close-navbar').onclick = () =>{
+document.querySelector('#close-form').onclick = () =>{
     contaForm.classList.remove('active');
 }
