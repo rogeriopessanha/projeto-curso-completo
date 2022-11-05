@@ -24,6 +24,21 @@ html::-webkit-scrollbar-thumb {
   background: #0eb582;
 }
 
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 1rem 3rem;
+  font-size: 1.8rem;
+  border: 0.1rem solid #0eb582;
+  background: #f0fdfa;
+  color: #0eb582;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #0eb582;
+  color: #fff;
+}
+
 .header {
   position: sticky;
   top: 0;
@@ -95,6 +110,7 @@ html::-webkit-scrollbar-thumb {
   box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
   z-index: 1200;
   padding: 2rem;
+  text-align: center;
 }
 .conta-form #close-form {
   position: absolute;
@@ -110,7 +126,6 @@ html::-webkit-scrollbar-thumb {
 .conta-form form {
   border: 0.1rem solid #0eb582;
   padding: 2rem;
-  text-align: center;
 }
 .conta-form form h3 {
   font-size: 2.5rem;
@@ -144,6 +159,12 @@ html::-webkit-scrollbar-thumb {
 .conta-form form .flex a:hover {
   text-decoration: underline;
   color: #0eb582;
+}
+.conta-form form .btn {
+  width: 100%;
+}
+.conta-form .botao .btn {
+  margin: 0 0.5rem;
 }
 
 @media (max-width: 1200px) {

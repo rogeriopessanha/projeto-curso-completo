@@ -57,6 +57,23 @@ html{
     }
 }
 
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    border: $borda;
+    background: $verde-claro;
+    color: $verde;
+    cursor: pointer;
+
+    &:hover{
+        background: $verde;
+        color: $branco;
+    }
+
+}
+
 .header{
     position: sticky;
     top: 0; left: 0; right: 0;
@@ -134,6 +151,7 @@ html{
     box-shadow: 0 0 0 100vw rgba(0, 0, 0, .8);
     z-index: 1200;
     padding: 2rem;
+    text-align: center;
 
     #close-form{
         position: absolute;
@@ -150,7 +168,6 @@ html{
     form{
         border: $borda;
         padding: 2rem;
-        text-align: center;
 
         h3{
             @include tituloTexto(2.5rem);
@@ -189,6 +206,14 @@ html{
                 }
             }
         }
+
+        .btn{
+            width: 100%;
+        }
+    }
+
+    .botao .btn{
+        margin: 0 .5rem;
     }
 }
 
