@@ -236,6 +236,34 @@ section{
 }
 
 
+.inicio{
+    padding: 0;
+
+    .slide{
+        display: flex;
+        align-items: center;
+        height: 60rem;
+        background-size: cover !important;
+        background-position: center !important;
+
+        .content{
+            width: 50rem;
+
+            h3{
+                @include tituloTexto(5rem);
+                color: $branco;
+            }
+
+            p{
+                @include graphTexto(1.6rem);
+                color: $branco-claro;
+                padding: 1rem 0;
+            }
+        }
+    }
+}
+
+
 
 
 
@@ -336,7 +364,6 @@ section{
         }
     }
 }
-
 
 
 
