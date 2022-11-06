@@ -67,7 +67,9 @@ section{
 
 .titulo-link{
     text-align: center;
-    background: url(../);
+    background: url(../img/titulo-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .titulo{
