@@ -38,6 +38,21 @@ section {
   background-size: cover;
   background-position: center;
 }
+.titulo-link h3 {
+  font-size: 4rem;
+  color: #444;
+}
+.titulo-link p {
+  font-size: 2rem;
+  line-height: 2;
+  color: #444;
+}
+.titulo-link p a {
+  color: #0eb582;
+}
+.titulo-link p a:hover {
+  text-decoration: underline;
+}
 
 .titulo {
   text-align: center;

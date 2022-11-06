@@ -70,6 +70,22 @@ section{
     background: url(../img/titulo-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center;
+
+    h3{
+        @include tituloTexto(4rem);
+    }
+
+    p{
+        @include graphTexto(2rem);
+
+        a{
+            color: $verde;
+
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
 }
 
 .titulo{
