@@ -415,7 +415,7 @@ section{
         flex: 1 1 40rem;
 
         .titulo-sobre{
-            @include tituloTexto(2.5rem);
+            @include tituloTexto(3rem);
         }
 
         p{
@@ -432,7 +432,9 @@ section{
             .icons{
                 flex: 1 1 16rem;
                 text-align: center;
-                padding: 3rem 2rem;
+                border: $borda;
+                background: $verde-claro;
+                padding: 2rem 2rem;
 
                 img{
                     height: 15rem;
@@ -440,11 +442,15 @@ section{
                 }
 
                 h3{
-                    @include tituloTexto(2rem);
+                    padding: .5rem 0;
+                    @include tituloTexto(3rem);
+                    color: $verde;
+                    font-weight: bolder;
                 }
 
                 span{
-                    @include graphTexto(1.5rem);
+                    @include graphTexto(1.6rem);
+                    font-weight: bolder;
                 }
             }
         }
