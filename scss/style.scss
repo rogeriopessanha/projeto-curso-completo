@@ -397,6 +397,60 @@ section{
 }
 
 
+.sobre{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+
+    .image{
+        flex: 1 1 40rem;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    .content{
+        flex: 1 1 40rem;
+
+        .titulo-sobre{
+            @include tituloTexto(2.5rem);
+        }
+
+        p{
+            @include graphTexto(1.5rem);
+            padding: 1rem 0;
+        }
+
+        .icons-container{
+            margin-top: 1rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+
+            .icons{
+                flex: 1 1 16rem;
+                text-align: center;
+                padding: 3rem 2rem;
+
+                img{
+                    height: 15rem;
+                    margin-bottom: .5rem;
+                }
+
+                h3{
+                    @include tituloTexto(2rem);
+                }
+
+                span{
+                    @include graphTexto(1.5rem);
+                }
+            }
+        }
+    }
+}
+
 
 
 

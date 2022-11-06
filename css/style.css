@@ -326,6 +326,56 @@ section {
   background: #444;
 }
 
+.sobre {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+.sobre .image {
+  flex: 1 1 40rem;
+}
+.sobre .image img {
+  width: 100%;
+}
+.sobre .content {
+  flex: 1 1 40rem;
+}
+.sobre .content .titulo-sobre {
+  font-size: 2.5rem;
+  color: #444;
+}
+.sobre .content p {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #444;
+  padding: 1rem 0;
+}
+.sobre .content .icons-container {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.sobre .content .icons-container .icons {
+  flex: 1 1 16rem;
+  text-align: center;
+  padding: 3rem 2rem;
+}
+.sobre .content .icons-container .icons img {
+  height: 15rem;
+  margin-bottom: 0.5rem;
+}
+.sobre .content .icons-container .icons h3 {
+  font-size: 2rem;
+  color: #444;
+}
+.sobre .content .icons-container .icons span {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #444;
+}
+
 .footer {
   background: #f0fdfa;
 }
