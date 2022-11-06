@@ -284,7 +284,6 @@ section {
 .inicio-cursos .slide {
   text-align: center;
   position: relative;
-  width: 30rem;
   background: #f0fdfa;
   overflow: hidden;
 }
@@ -379,6 +378,55 @@ section {
   line-height: 2;
   color: #444;
   font-weight: bolder;
+}
+
+.profesores .slide {
+  text-align: center;
+  width: 30rem;
+}
+.profesores .slide:hover .image img {
+  background: #0eb582;
+}
+.profesores .slide:hover .image .redes-social {
+  bottom: 0;
+}
+.profesores .slide .image {
+  position: relative;
+  overflow: hidden;
+}
+.profesores .slide .image img {
+  width: 100%;
+}
+.profesores .slide .image .redes-social {
+  position: absolute;
+  bottom: -10;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 2rem;
+}
+.profesores .slide .image .redes-social a {
+  font-size: 3rem;
+  margin: 0 1rem;
+  color: #fff;
+}
+.profesores .slide .image .redes-social a:hover {
+  color: #0eb582;
+}
+.profesores .slide .content {
+  display: flex;
+  padding-top: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.profesores .slide .content h3 {
+  font-size: 2rem;
+  color: #444;
+}
+.profesores .slide .content span {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #444;
 }
 
 .footer {

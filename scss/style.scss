@@ -350,7 +350,6 @@ section{
     .slide{
         text-align: center;
         position: relative;
-        width: 30rem;
         background: $verde-claro;
         overflow: hidden;
 
@@ -461,6 +460,66 @@ section{
 
 .profesores{
     
+    .slide{
+        text-align: center;
+        width: 30rem;
+
+        &:hover{
+
+            .image{
+
+                img{
+                    background: $verde;
+                }
+
+                .redes-social{
+                    bottom: 0;
+                }
+            }
+        }
+
+        .image{
+            position: relative;
+            overflow: hidden;
+
+            img{
+                // background: $verde-claro;
+                width: 100%;
+            }
+
+            .redes-social{
+                position: absolute;
+                bottom: -10; left: 0; right: 0;
+                background: rgba(0, 0, 0, .8);
+                padding: 2rem;
+
+                a{
+                    font-size: 3rem;
+                    margin: 0 1rem;
+                    color: $branco;
+
+                    &:hover{
+                        color: $verde;
+                    }
+                }
+            }
+        }
+
+        .content{
+            display: flex;
+            padding-top: 1rem;
+            align-items: center;
+            justify-content: space-between;
+
+            h3{
+                @include tituloTexto(2rem);
+            }
+
+            span{
+                @include graphTexto(1.5rem);
+            }
+        }
+    }
 }
 
 
