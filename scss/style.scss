@@ -425,12 +425,13 @@ section{
 
         .icons-container{
             margin-top: 1rem;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1.5rem;
+            @include grid(16rem);
+            // display: flex;
+            // flex-wrap: wrap;
+            // gap: 1.5rem;
 
             .icons{
-                flex: 1 1 16rem;
+                // flex: 1 1 16rem;
                 text-align: center;
                 border: $borda;
                 background: $verde-claro;
@@ -635,5 +636,9 @@ section{
 
     .titulo{
         font-size: 3rem;
+    }
+
+    .sobre .content .titulo-sobre{
+        font-size: 4rem;
     }
 }
