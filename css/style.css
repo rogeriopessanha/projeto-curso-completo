@@ -32,6 +32,11 @@ section {
   padding: 5rem 10%;
 }
 
+.titulo-link {
+  text-align: center;
+  background: url(../);
+}
+
 .titulo {
   text-align: center;
   margin-bottom: 3rem;
