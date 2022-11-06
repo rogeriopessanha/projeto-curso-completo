@@ -28,6 +28,13 @@ section {
   padding: 5rem 10%;
 }
 
+.titulo {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 3.5rem;
+  color: #444;
+}
+
 .btn {
   display: inline-block;
   margin-top: 1rem;
@@ -212,6 +219,42 @@ section {
   background: #0eb582;
 }
 
+.materias .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 2rem;
+}
+.materias .box-container .box {
+  padding: 3rem 2rem;
+  text-align: center;
+  border: 0.1rem solid #0eb582;
+  background: #f0fdfa;
+  cursor: pointer;
+}
+.materias .box-container .box:hover {
+  background: #0eb582;
+}
+.materias .box-container .box:hover h3 {
+  color: #fff;
+}
+.materias .box-container .box:hover p {
+  color: #fff;
+}
+.materias .box-container .box img {
+  height: 10rem;
+  margin-bottom: 0.5rem;
+}
+.materias .box-container .box h3 {
+  font-size: 1.8rem;
+  color: #444;
+  padding: 0.5rem 0;
+}
+.materias .box-container .box p {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #444;
+}
+
 .footer {
   background: #f0fdfa;
 }
@@ -335,6 +378,9 @@ section {
 @media (max-width: 450px) {
   html {
     font-size: 50%;
+  }
+  .titulo {
+    font-size: 3rem;
   }
 }
 

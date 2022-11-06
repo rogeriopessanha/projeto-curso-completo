@@ -61,6 +61,12 @@ section{
     padding: 5rem 10%;
 }
 
+.titulo{
+    text-align: center;
+    margin-bottom: 3rem;
+    @include tituloTexto(3.5rem);
+}
+
 .btn{
     display: inline-block;
     margin-top: 1rem;
@@ -271,6 +277,47 @@ section{
 }
 
 
+.materias{
+    .box-container{
+        @include grid(16rem);
+
+        .box{
+            padding: 3rem 2rem;
+            text-align: center;
+            border: $borda;
+            background: $verde-claro;
+            cursor: pointer;
+
+            &:hover{
+                background: $verde;
+
+                h3{
+                    color: $branco;
+                }
+
+                p{
+                    color: $branco;
+                }
+            }
+
+            img{
+                height: 10rem;
+                margin-bottom: .5rem;
+            }
+
+            h3{
+                @include tituloTexto(1.8rem);
+                padding: .5rem 0;
+            }
+
+            p{
+                @include graphTexto(1.5rem);
+            }
+        }
+    }
+}
+
+
 
 
 
@@ -457,5 +504,9 @@ section{
 
     html{
         font-size: 50%;
+    }
+
+    .titulo{
+        font-size: 3rem;
     }
 }
