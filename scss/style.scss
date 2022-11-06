@@ -13,6 +13,10 @@
     transition: all .2s linear;
 }
 
+img{
+    user-select: none;
+}
+
 $verde: #0eb582;
 $verde-claro: #f0fdfa;
 $cor-clara: #777;
@@ -318,16 +322,56 @@ section{
 }
 
 
+.inicio-cursos{
 
+    .slide{
+        text-align: center;
+        position: relative;
+        width: 30rem;
+        background: $verde-claro;
+        overflow: hidden;
 
+        &:hover .content{
+            bottom: 0;
+        }
 
+        .image{
+            padding: 2rem;
 
+            img{
+                width: 100%;
+                margin-bottom: 1.5rem;
+            }
 
+            h3{
+                @include tituloTexto(2rem);
+            }
+        }
 
+        .content{
+            position: absolute;
+            bottom: -100%; right: 0; left: 0;
+            background: $verde;
+            padding: 2rem 3rem;
 
+            h3{
+                @include tituloTexto(2rem);
+                color: $branco;
+            }
 
+            p{
+                padding: 1rem 0;
+                @include graphTexto(1.5rem);
+                color: $branco-claro;
+            }
 
+            .btn:hover{
+                background: $preto;
+            }
+        }
+    }
 
+}
 
 
 

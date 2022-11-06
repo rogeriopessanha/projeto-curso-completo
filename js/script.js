@@ -52,3 +52,37 @@ var swiper = new Swiper(".inicio-slider", {
         disableOnInteraction: false,
     },
   });
+
+
+  var swiper = new Swiper(".inicio-cursos-slider", {
+    loop:true,
+    grabCursor:true,
+    spaceBetween: 20,
+    breakpoints: {
+        0: {
+          slidesPerView: 1,
+        },
+        768: {
+          slidesPerView: 2,
+        },
+        991: {
+          slidesPerView: 3,
+        },
+      },
+  });
+
+
+
+//   slidesPerView: 1,
+//         spaceBetween: 30,
+//         loop: true,
+//     pagination: {
+//       el: ".swiper-pagination",
+//       clickable:true,
+//     },
+//     loop:true,
+//     grabCursor:true,
+//     autoplay: {
+//         delay: 8500,
+//         disableOnInteraction: false,
+//     },
