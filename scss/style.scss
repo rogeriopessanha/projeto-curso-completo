@@ -526,7 +526,6 @@ section{
 
     .slide{
         text-align: center;
-        width: 30rem;
 
         p{
             @include graphTexto(1.5rem);
@@ -548,6 +547,22 @@ section{
                 width: 2rem;
 
             }
+        }
+
+        img{
+            height: 7rem;
+            width: 7rem;
+            border-radius: 50%;
+        }
+
+        h3{
+            @include tituloTexto(2.2rem);
+            padding: .5rem 0;
+        }
+
+        .estrela{
+            font-size: 1.2rem;
+            color: $verde;
         }
     }
 }
