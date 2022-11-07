@@ -509,7 +509,7 @@ section{
             display: flex;
             padding-top: 1rem;
             align-items: center;
-            justify-content: space-between;
+            justify-content: space-around;
 
             h3{
                 @include tituloTexto(2rem);

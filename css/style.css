@@ -417,7 +417,7 @@ section {
   display: flex;
   padding-top: 1rem;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .profesores .slide .content h3 {
   font-size: 2rem;
