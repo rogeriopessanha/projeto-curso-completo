@@ -113,6 +113,29 @@ section{
 
 }
 
+.swiper-button-next,
+.swiper-button-prev {
+    border: $borda;
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    color: $verde;
+    background: rgba(255, 255, 255, 0.203);
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 3.5rem;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    background: $verde;
+    color: $branco;
+}
+// BOTÃO
+
+
 // COMEÇO DO HEADER
 .header{
     position: sticky;
@@ -282,27 +305,27 @@ section{
     .slide{
         display: flex;
         align-items: center;
-        height: 60rem;
-        background-size: cover !important;
+        height: 30rem;
+        background-size: contain !important;
         background-position: center !important;
 
-        .content{
-            width: 50rem;
-            // background: rgba(119, 119, 119, 0.578);
+        // .content{
+        //     width: 50rem;
+        //     background: rgba(119, 119, 119, 0.578);
 
-            h3{
-                @include tituloTexto(5rem);
-                color: $verde;
+        //     h3{
+        //         @include tituloTexto(5rem);
+        //         color: $verde;
                 
-            }
+        //     }
 
-            p{
-                @include graphTexto(1.6rem);
-                color: $branco-claro;
-                padding: 1rem 0;
-            }
+        //     p{
+        //         @include graphTexto(1.6rem);
+        //         color: $branco-claro;
+        //         padding: 1rem 0;
+        //     }
 
-        }
+        // }
     }
 }
 // FINAL DA SECTION INICIO

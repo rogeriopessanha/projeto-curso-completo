@@ -41,10 +41,6 @@ var swiper = new Swiper(".inicio-slider", {
     slidesPerView: 1,
         spaceBetween: 30,
         loop: true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable:true,
-    },
     loop:true,
     grabCursor:true,
     autoplay: {
@@ -58,6 +54,14 @@ var swiper = new Swiper(".inicio-slider", {
     loop:true,
     grabCursor:true,
     spaceBetween: 20,
+    autoplay: {
+      delay: 6500,
+      disableOnInteraction: false,
+  },
+  navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+  },
     breakpoints: {
         0: {
           slidesPerView: 1,
@@ -76,6 +80,14 @@ var swiper = new Swiper(".inicio-slider", {
     loop:true,
     grabCursor:true,
     spaceBetween: 20,
+    autoplay: {
+      delay: 6500,
+      disableOnInteraction: false,
+  },
+  navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+  },
     breakpoints: {
         0: {
           slidesPerView: 1,
@@ -94,6 +106,10 @@ var swiper = new Swiper(".inicio-slider", {
     loop:true,
     grabCursor:true,
     spaceBetween: 20,
+    autoplay: {
+      delay: 6500,
+      disableOnInteraction: false,
+  },
     breakpoints: {
         0: {
           slidesPerView: 1,

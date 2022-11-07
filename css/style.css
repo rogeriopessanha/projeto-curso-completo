@@ -76,6 +76,27 @@ section {
   color: #fff;
 }
 
+.swiper-button-next,
+.swiper-button-prev {
+  border: 0.1rem solid #0eb582;
+  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
+  color: #0eb582;
+  background: rgba(255, 255, 255, 0.203);
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 3.5rem;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background: #0eb582;
+  color: #fff;
+}
+
 .header {
   position: sticky;
   top: 0;
@@ -221,24 +242,9 @@ section {
 .inicio .slide {
   display: flex;
   align-items: center;
-  height: 60rem;
-  background-size: cover !important;
+  height: 30rem;
+  background-size: contain !important;
   background-position: center !important;
-}
-.inicio .slide .content {
-  width: 50rem;
-}
-.inicio .slide .content h3 {
-  font-size: 5rem;
-  color: #444;
-  color: #0eb582;
-}
-.inicio .slide .content p {
-  font-size: 1.6rem;
-  line-height: 2;
-  color: #444;
-  color: #eee;
-  padding: 1rem 0;
 }
 
 .swiper-pagination-bullet-active {
