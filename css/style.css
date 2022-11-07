@@ -382,7 +382,6 @@ section {
 
 .profesores .slide {
   text-align: center;
-  width: 30rem;
 }
 .profesores .slide:hover .image img {
   background: #0eb582;
@@ -427,6 +426,33 @@ section {
   font-size: 1.5rem;
   line-height: 2;
   color: #444;
+}
+
+.avaliacao .slide {
+  text-align: center;
+  width: 30rem;
+}
+.avaliacao .slide p {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #444;
+  position: relative;
+  background: #f0fdfa;
+  border: 0.1rem solid #0eb582;
+  margin-bottom: 3rem;
+  padding: 2rem;
+}
+.avaliacao .slide p::before {
+  content: "";
+  position: absolute;
+  bottom: -1.2rem;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  background: #f0fdfa;
+  border-bottom: 0.1rem solid #0eb582;
+  border-right: 0.1rem solid #0eb582;
+  height: 2rem;
+  width: 2rem;
 }
 
 .footer {
