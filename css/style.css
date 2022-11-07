@@ -579,6 +579,29 @@ section {
   section {
     padding: 3rem 2rem;
   }
+  .inicio {
+    padding: 5rem;
+  }
+  .inicio .slide {
+    height: 35rem;
+  }
+  .inicio .slide .content {
+    width: 40rem;
+  }
+  .inicio .slide .content h3 {
+    font-size: 3.5rem;
+    color: #444;
+    color: #444;
+    font-weight: 900;
+  }
+  .inicio .slide .content p {
+    font-size: 2rem;
+    line-height: 2;
+    color: #444;
+    color: #444;
+    padding: 1rem 0;
+    font-weight: 600;
+  }
 }
 @media (max-width: 768px) {
   .header #menu-btn {
