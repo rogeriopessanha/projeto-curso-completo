@@ -65,6 +65,7 @@ section{
     padding: 5rem 10%;
 }
 
+// TITULOS
 .titulo-link{
     text-align: center;
     background: url(../img/titulo-bg.jpg) no-repeat;
@@ -94,6 +95,7 @@ section{
     @include tituloTexto(3.5rem);
 }
 
+// BOTÃO
 .btn{
     display: inline-block;
     margin-top: 1rem;
@@ -111,6 +113,7 @@ section{
 
 }
 
+// COMEÇO DO HEADER
 .header{
     position: sticky;
     top: 0; left: 0; right: 0;
@@ -173,8 +176,10 @@ section{
         display: none;
     }
 }
+// FINAL DO HEADER
 
 
+// COMEÇO DO FORM
 .conta-form{
     position: fixed;
     top: 0; right: -105%; 
@@ -267,8 +272,10 @@ section{
         }
     }
 }
+// FINAL DO FORM
 
 
+// COMEÇO DA SECTION INICIO
 .inicio{
     padding: 0;
 
@@ -298,12 +305,13 @@ section{
         }
     }
 }
+// FINAL DA SECTION INICIO
 
 .swiper-pagination-bullet-active{
     background: $verde;
 }
 
-
+// COMEÇO DA SECTION MATERIAS 
 .materias{
     .box-container{
         @include grid(16rem);
@@ -343,8 +351,10 @@ section{
         }
     }
 }
+// FINAL DA SECTION MATERIAS 
 
 
+// COMEÇO DA SECTION INICIO-CURSOS
 .inicio-cursos{
 
     .slide{
@@ -394,8 +404,10 @@ section{
     }
 
 }
+// FINAL DA SECTION INICIO-CURSOS
 
 
+// COMEÇO DA SECTION SOBRE
 .sobre{
     display: flex;
     align-items: center;
@@ -456,8 +468,9 @@ section{
         }
     }
 }
+// FINAL DA SECTION SOBRE
 
-
+// COMEÇO DA SECTION PROFESSORES NA PAGINA SOBRE NÓS
 .profesores{
     
     .slide{
@@ -520,8 +533,9 @@ section{
         }
     }
 }
+// FINAL DA SECTION PROFESSORES NA PAGINA SOBRE NÓS
 
-
+// COMEÇO DA SECTION AVALIAÇÃO NA PAGINA SOBRE NÓS
 .avaliacao{
 
     .slide{
@@ -566,6 +580,7 @@ section{
         }
     }
 }
+// FINAL DA SECTION AVALIAÇÃO NA PAGINA SOBRE NÓS
 
 
 
@@ -577,9 +592,9 @@ section{
 
 
 
-
-
+// COMEÇO DA SECTION FOOTER
 .footer{
+
     background: $verde-claro;
 
     .box-container{
@@ -653,12 +668,12 @@ section{
         }
     }
 }
+// FINAL DA SECTION FOOTER
 
 
 
 
 // MEDIA QUERIES
-
 
 // TELA GRANDE
 @media (max-width: 1200px){
