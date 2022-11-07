@@ -394,6 +394,7 @@ section {
   overflow: hidden;
 }
 .profesores .slide .image img {
+  background: #f0fdfa;
   width: 100%;
 }
 .profesores .slide .image .redes-social {
