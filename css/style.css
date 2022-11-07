@@ -330,7 +330,7 @@ section {
   bottom: -100%;
   right: 0;
   left: 0;
-  background: #0eb582;
+  background: rgba(14, 181, 131, 0.7333333333);
   padding: 2rem 3rem;
 }
 .inicio-cursos .slide .content h3 {
@@ -603,6 +603,48 @@ section {
     font-weight: 600;
   }
 }
+.inicio-cursos .slide {
+  text-align: center;
+  position: relative;
+  background: #f0fdfa;
+  overflow: hidden;
+  height: 40rem;
+}
+.inicio-cursos .slide:hover .content {
+  bottom: 0;
+}
+.inicio-cursos .slide .image {
+  padding: 4rem;
+  margin: 1rem;
+}
+.inicio-cursos .slide .image img {
+  width: 80%;
+}
+.inicio-cursos .slide .image h3 {
+  font-size: 3rem;
+  color: #444;
+}
+.inicio-cursos .slide .content {
+  position: absolute;
+  bottom: -100%;
+  right: 0;
+  left: 0;
+}
+.inicio-cursos .slide .content h3 {
+  font-size: 3rem;
+  color: #444;
+  color: #fff;
+}
+.inicio-cursos .slide .content p {
+  font-size: 1.8rem;
+  line-height: 2;
+  color: #444;
+  color: #fff;
+}
+.inicio-cursos .slide .content .btn:hover {
+  background: #444;
+}
+
 @media (max-width: 768px) {
   .header #menu-btn {
     display: inline-block;
@@ -636,6 +678,48 @@ section {
     font-size: 3rem;
   }
 }
+.inicio-cursos .slide {
+  text-align: center;
+  position: relative;
+  background: #f0fdfa;
+  overflow: hidden;
+  height: 46rem;
+}
+.inicio-cursos .slide:hover .content {
+  bottom: 0;
+}
+.inicio-cursos .slide .image {
+  padding: 4rem;
+  margin: 1rem;
+}
+.inicio-cursos .slide .image img {
+  width: 100%;
+}
+.inicio-cursos .slide .image h3 {
+  font-size: 3rem;
+  color: #444;
+}
+.inicio-cursos .slide .content {
+  position: absolute;
+  bottom: -100%;
+  right: 0;
+  left: 0;
+}
+.inicio-cursos .slide .content h3 {
+  font-size: 2rem;
+  color: #444;
+  color: #fff;
+}
+.inicio-cursos .slide .content p {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #444;
+  color: #fff;
+}
+.inicio-cursos .slide .content .btn:hover {
+  background: #444;
+}
+
 @media (max-width: 450px) {
   html {
     font-size: 50%;
@@ -645,6 +729,48 @@ section {
   }
   .sobre .content .titulo-sobre {
     font-size: 4rem;
+  }
+  .inicio-cursos .slide {
+    text-align: center;
+    position: relative;
+    background: #f0fdfa;
+    overflow: hidden;
+    height: 40rem;
+  }
+  .inicio-cursos .slide:hover .content {
+    bottom: 0;
+  }
+  .inicio-cursos .slide .image {
+    padding: 4rem;
+    margin: 1rem;
+  }
+  .inicio-cursos .slide .image img {
+    width: 80%;
+  }
+  .inicio-cursos .slide .image h3 {
+    font-size: 3rem;
+    color: #444;
+  }
+  .inicio-cursos .slide .content {
+    position: absolute;
+    bottom: -100%;
+    right: 0;
+    left: 0;
+    background: rgba(14, 181, 131, 0.7333333333);
+  }
+  .inicio-cursos .slide .content h3 {
+    font-size: 3rem;
+    color: #444;
+    color: #fff;
+  }
+  .inicio-cursos .slide .content p {
+    font-size: 1.8rem;
+    line-height: 2;
+    color: #444;
+    color: #fff;
+  }
+  .inicio-cursos .slide .content .btn:hover {
+    background: #444;
   }
 }
 

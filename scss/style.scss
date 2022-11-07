@@ -19,6 +19,7 @@ img{
 
 $verde: #0eb582;
 $verde-claro: #f0fdfa;
+$trasparente: #0eb583bb;
 $cor-clara: #777;
 $branco-claro: #eee;
 $preto: #444;
@@ -417,7 +418,7 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
         .content{
             position: absolute;
             bottom: -100%; right: 0; left: 0;
-            background: $verde;
+            background: $trasparente;
             padding: 2rem 3rem;
 
             h3{
@@ -766,6 +767,56 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
 }
 
 
+.inicio-cursos{
+
+    .slide{
+        text-align: center;
+        position: relative;
+        background: $verde-claro;
+        overflow: hidden;
+        height: 40rem;
+
+        &:hover .content{
+            bottom: 0;
+        }
+
+        .image{
+            padding: 4rem;
+            margin: 1rem;
+
+            img{
+                width: 80%;
+                // margin-bottom: 2.5rem;
+            }
+
+            h3{
+                @include tituloTexto(3rem);
+            }
+        }
+
+        .content{
+            position: absolute;
+            bottom: -100%; right: 0; left: 0;
+
+            h3{
+                @include tituloTexto(3rem);
+                color: $branco;
+            }
+
+            p{
+                @include graphTexto(1.8rem);
+                color: $branco;
+            }
+
+            .btn:hover{
+                background: $preto;
+            }
+        }
+    }
+
+}
+
+
 // TELA MEDIA
 @media (max-width: 768px){
 
@@ -809,6 +860,55 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
     }
 }
 
+.inicio-cursos{
+
+    .slide{
+        text-align: center;
+        position: relative;
+        background: $verde-claro;
+        overflow: hidden;
+        height: 46rem;
+
+        &:hover .content{
+            bottom: 0;
+        }
+
+        .image{
+            padding: 4rem;
+            margin: 1rem;
+
+            img{
+                width: 100%;
+                // margin-bottom: 2.5rem;
+            }
+
+            h3{
+                @include tituloTexto(3rem);
+            }
+        }
+
+        .content{
+            position: absolute;
+            bottom: -100%; right: 0; left: 0;
+
+            h3{
+                @include tituloTexto(2rem);
+                color: $branco;
+            }
+
+            p{
+                @include graphTexto(1.5rem);
+                color: $branco;
+            }
+
+            .btn:hover{
+                background: $preto;
+            }
+        }
+    }
+
+}
+
 
 // TELA PEQUENA
 @media (max-width: 450px){
@@ -823,5 +923,55 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
 
     .sobre .content .titulo-sobre{
         font-size: 4rem;
+    }
+
+    .inicio-cursos{
+
+        .slide{
+            text-align: center;
+            position: relative;
+            background: $verde-claro;
+            overflow: hidden;
+            height: 40rem;
+    
+            &:hover .content{
+                bottom: 0;
+            }
+    
+            .image{
+                padding: 4rem;
+                margin: 1rem;
+    
+                img{
+                    width: 80%;
+                    // margin-bottom: 2.5rem;
+                }
+    
+                h3{
+                    @include tituloTexto(3rem);
+                }
+            }
+    
+            .content{
+                position: absolute;
+                bottom: -100%; right: 0; left: 0;
+                background: #0eb583bb;
+    
+                h3{
+                    @include tituloTexto(3rem);
+                    color: $branco;
+                }
+    
+                p{
+                    @include graphTexto(1.8rem);
+                    color: $branco;
+                }
+    
+                .btn:hover{
+                    background: $preto;
+                }
+            }
+        }
+    
     }
 }
