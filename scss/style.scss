@@ -300,32 +300,43 @@ section{
 
 // COMEÇO DA SECTION INICIO
 .inicio{
-    padding: 0;
+    padding: 5rem;
+    background: rgb(14,181,130);
+background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 100%);
 
     .slide{
         display: flex;
         align-items: center;
-        height: 30rem;
+        height: 65rem;
         background-size: contain !important;
-        background-position: center !important;
+        background-position: right !important;
 
-        // .content{
-        //     width: 50rem;
-        //     background: rgba(119, 119, 119, 0.578);
+        .content{
+            width: 50rem;
 
-        //     h3{
-        //         @include tituloTexto(5rem);
-        //         color: $verde;
+            h3{
+                @include tituloTexto(5rem);
+                color: $preto;
+                font-weight: 900
                 
-        //     }
+            }
 
-        //     p{
-        //         @include graphTexto(1.6rem);
-        //         color: $branco-claro;
-        //         padding: 1rem 0;
-        //     }
+            p{
+                @include graphTexto(1.6rem);
+                color: $preto;
+                padding: 1rem 0;
+                font-weight: 600
+            }
 
-        // }
+            a{
+                
+                &:hover{
+                    background: $preto
+
+                }
+            }
+
+        }
     }
 }
 // FINAL DA SECTION INICIO
@@ -725,6 +736,8 @@ section{
     section{
         padding: 3rem 2rem;
     }
+
+
 }
 
 

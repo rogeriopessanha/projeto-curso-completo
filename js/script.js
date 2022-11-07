@@ -39,10 +39,9 @@ document.querySelector('#close-form').onclick = () =>{
 
 var swiper = new Swiper(".inicio-slider", {
     slidesPerView: 1,
-        spaceBetween: 30,
+        // spaceBetween: 30,
         loop: true,
     loop:true,
-    grabCursor:true,
     autoplay: {
         delay: 8500,
         disableOnInteraction: false,
