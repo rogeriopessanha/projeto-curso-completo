@@ -247,10 +247,6 @@ section {
   background-position: center !important;
 }
 
-.swiper-pagination-bullet-active {
-  background: #0eb582;
-}
-
 .materias .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
