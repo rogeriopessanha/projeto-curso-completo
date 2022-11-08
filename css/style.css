@@ -523,7 +523,8 @@ section {
   text-align: center;
 }
 .footer .box-container .box .redes-social a:hover {
-  background: #444;
+  background: #fff;
+  color: #0eb582;
 }
 .footer .box-container .box .link {
   font-size: 1.5rem;
