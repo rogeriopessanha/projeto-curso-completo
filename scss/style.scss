@@ -704,6 +704,7 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
 .contato{
 
     .icons-container{
+        margin-bottom: 2rem;
         @include grid(25rem);
 
         .icons{
@@ -711,6 +712,17 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
             padding: 3rem 2rem;
             border: $borda;
             background: $verde-claro;
+
+            i{
+                height: 5rem;
+                width: 5rem;
+                line-height: 5rem;
+                font-size: 2rem;
+                border-radius: 50%;
+                margin-bottom: .5rem;
+                color: $branco;
+                background: $verde;
+            }
         }
     }
 }

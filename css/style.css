@@ -563,6 +563,7 @@ section {
 }
 
 .contato .icons-container {
+  margin-bottom: 2rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 2rem;
@@ -572,6 +573,16 @@ section {
   padding: 3rem 2rem;
   border: 0.1rem solid #0eb582;
   background: #f0fdfa;
+}
+.contato .icons-container .icons i {
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  font-size: 2rem;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+  color: #fff;
+  background: #0eb582;
 }
 
 .footer {
