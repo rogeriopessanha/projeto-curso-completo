@@ -37,12 +37,7 @@ document.querySelector('#close-form').onclick = () =>{
 }
 
 
-document.querySelector('.carregar .btn').onclick = () =>{
-  document.querySelectorAll('.curso .box-container .hide').forEach(show =>{
-    show.style.display = 'block';
-  });
-  document.querySelector('.carregar .btn').style.display = 'none';
-};
+
 
 
 var swiper = new Swiper(".inicio-slider", {
@@ -132,6 +127,14 @@ var swiper = new Swiper(".inicio-slider", {
         },
       },
   });
+
+
+  document.querySelector('.carregar .btn').onclick = () =>{
+    document.querySelectorAll('.cursos .box-container .hide').forEach(show =>{
+      show.style.display = 'block';
+    });
+    document.querySelector('.carregar .btn').style.display = 'none';
+  };
 
 
 
