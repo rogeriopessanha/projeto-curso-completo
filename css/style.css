@@ -501,6 +501,9 @@ section {
 .curso .box-container .box:hover .image img {
   transform: scale(1.1);
 }
+.curso .box-container .box.hide {
+  display: none;
+}
 .curso .box-container .box .image {
   height: 42rem;
   overflow: hidden;

@@ -630,6 +630,10 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
                 transform: scale(1.1);
             }
 
+            &.hide{
+                display: none;
+            }
+
             .image{
                 height: 42rem;
                 overflow: hidden;
