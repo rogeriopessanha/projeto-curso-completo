@@ -65,6 +65,9 @@ var swiper = new Swiper(".inicio-slider", {
         0: {
           slidesPerView: 1,
         },
+        550: {
+          slidesPerView: 2,
+        },
         768: {
           slidesPerView: 2,
         },

@@ -330,7 +330,7 @@ section {
   bottom: -100%;
   right: 0;
   left: 0;
-  background: rgba(14, 181, 131, 0.7333333333);
+  background: rgba(0, 0, 0, 0.8);
   padding: 2rem 3rem;
 }
 .inicio-cursos .slide .content h3 {
@@ -674,10 +674,38 @@ section {
     text-align: center;
     font-size: 3rem;
   }
-  .inicio .slide .content h3 {
-    font-size: 3rem;
-  }
 }
+.inicio {
+  padding: 5rem;
+}
+.inicio .slide {
+  display: flex;
+  align-items: center;
+  height: 35rem;
+  background-size: contain !important;
+  background-position: right !important;
+}
+.inicio .slide .content {
+  width: 40rem;
+}
+.inicio .slide .content h3 {
+  font-size: 3rem;
+  color: #444;
+  color: #444;
+  font-weight: 900;
+}
+.inicio .slide .content p {
+  font-size: 1.8rem;
+  line-height: 2;
+  color: #444;
+  color: #444;
+  padding: 1rem 0;
+  font-weight: 600;
+}
+.inicio .slide .content a:hover {
+  background: #444;
+}
+
 .inicio-cursos .slide {
   text-align: center;
   position: relative;
@@ -704,20 +732,22 @@ section {
   bottom: -100%;
   right: 0;
   left: 0;
+  height: 46rem;
+  padding: 6rem;
 }
 .inicio-cursos .slide .content h3 {
-  font-size: 2rem;
+  font-size: 3rem;
   color: #444;
   color: #fff;
 }
 .inicio-cursos .slide .content p {
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: 2;
   color: #444;
   color: #fff;
 }
 .inicio-cursos .slide .content .btn:hover {
-  background: #444;
+  background: #0eb582;
 }
 
 @media (max-width: 450px) {
@@ -729,6 +759,19 @@ section {
   }
   .sobre .content .titulo-sobre {
     font-size: 4rem;
+  }
+  .inicio {
+    padding: 0;
+  }
+  .inicio .slide {
+    display: flex;
+    align-items: center;
+    height: 50rem;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+  .inicio .slide .content {
+    display: none;
   }
   .inicio-cursos .slide {
     text-align: center;
@@ -757,6 +800,8 @@ section {
     right: 0;
     left: 0;
     background: rgba(14, 181, 131, 0.7333333333);
+    height: 40rem;
+    padding: 6rem;
   }
   .inicio-cursos .slide .content h3 {
     font-size: 3rem;

@@ -19,7 +19,6 @@ img{
 
 $verde: #0eb582;
 $verde-claro: #f0fdfa;
-$trasparente: #0eb583bb;
 $cor-clara: #777;
 $branco-claro: #eee;
 $preto: #444;
@@ -418,7 +417,7 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
         .content{
             position: absolute;
             bottom: -100%; right: 0; left: 0;
-            background: $trasparente;
+            background: rgba(0, 0, 0, .8);
             padding: 2rem 3rem;
 
             h3{
@@ -855,8 +854,45 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
         }
     }
 
-    .inicio .slide .content h3{
-        font-size: 3rem;
+   
+}
+
+.inicio{
+    padding: 5rem;
+    
+    .slide{
+        display: flex;
+        align-items: center;
+        height: 35rem;
+        background-size: contain !important;
+        background-position: right !important;
+
+        .content{
+            width: 40rem;
+
+            h3{
+                @include tituloTexto(3rem);
+                color: $preto;
+                font-weight: 900
+                
+            }
+
+            p{
+                @include graphTexto(1.8rem);
+                color: $preto;
+                padding: 1rem 0;
+                font-weight: 600
+            }
+
+            a{
+                
+                &:hover{
+                    background: $preto
+
+                }
+            }
+
+        }
     }
 }
 
@@ -890,19 +926,21 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
         .content{
             position: absolute;
             bottom: -100%; right: 0; left: 0;
+            height: 46rem;
+                padding: 6rem;
 
             h3{
-                @include tituloTexto(2rem);
+                @include tituloTexto(3rem);
                 color: $branco;
             }
 
             p{
-                @include graphTexto(1.5rem);
+                @include graphTexto(2rem);
                 color: $branco;
             }
 
             .btn:hover{
-                background: $preto;
+                background: $verde;
             }
         }
     }
@@ -924,6 +962,29 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
     .sobre .content .titulo-sobre{
         font-size: 4rem;
     }
+
+
+
+    .inicio{
+        padding: 0;
+        
+    
+        .slide{
+            display: flex;
+            align-items: center;
+            height: 50rem;
+            background-size: contain !important;
+            background-position: center !important;
+    
+            .content{
+                
+                display: none;
+    
+    
+            }
+        }
+    }
+
 
     .inicio-cursos{
 
@@ -956,6 +1017,8 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
                 position: absolute;
                 bottom: -100%; right: 0; left: 0;
                 background: #0eb583bb;
+                height: 40rem;
+                padding: 6rem;
     
                 h3{
                     @include tituloTexto(3rem);
