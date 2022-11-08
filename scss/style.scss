@@ -734,6 +734,32 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
             }
         }
     }
+
+    .row{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+
+        .image{
+            flex: 1 1 40rem;
+
+            img{
+                width: 100%;
+            }
+        }
+
+        form{
+            flex: 1 1 40rem;
+            border: $borda;
+            padding: 2rem;
+
+            h3{
+                @include tituloTexto(2.5rem);
+                padding-bottom: 1rem;
+            }
+        }
+    }
 }
 
 // FINAL SECTION CONTATO

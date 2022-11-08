@@ -594,6 +594,28 @@ section {
   line-height: 2;
   color: #444;
 }
+.contato .row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.contato .row .image {
+  flex: 1 1 40rem;
+}
+.contato .row .image img {
+  width: 100%;
+}
+.contato .row form {
+  flex: 1 1 40rem;
+  border: 0.1rem solid #0eb582;
+  padding: 2rem;
+}
+.contato .row form h3 {
+  font-size: 2.5rem;
+  color: #444;
+  padding-bottom: 1rem;
+}
 
 .footer {
   background: #f0fdfa;
