@@ -495,8 +495,11 @@ section {
 
 .curso .box-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
   gap: 2rem;
+}
+.curso .box-container .box:hover .image img {
+  transform: scale(1.1);
 }
 .curso .box-container .box .image {
   height: 42rem;
@@ -533,6 +536,22 @@ section {
   font-size: 1.5rem;
   line-height: 2;
   color: #444;
+}
+.curso .box-container .box .icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 0.1rem solid #0eb582;
+}
+.curso .box-container .box .icons span {
+  font-size: 1.8rem;
+  color: #444;
+}
+.curso .box-container .box .icons span i {
+  color: #0eb582;
+  padding-right: 0.5rem;
 }
 
 .footer {
