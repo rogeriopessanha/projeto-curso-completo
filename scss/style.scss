@@ -19,6 +19,7 @@ img{
 
 $verde: #0eb582;
 $verde-claro: #f0fdfa;
+$trasparente: #0978395d;
 $cor-clara: #777;
 $branco-claro: #eee;
 $preto: #444;
@@ -617,6 +618,71 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
 // FINAL DA SECTION AVALIAÇÃO NA PAGINA SOBRE NÓS
 
 
+.curso{
+
+    .box-container{
+
+        @include grid(40rem);
+
+        .box{
+
+            .image{
+                height: 42rem;
+                overflow: hidden;
+                position: relative;
+                background: $verde-claro;
+                
+
+                img{
+                    height: 80%;
+                    width: 80%;
+                    object-fit: cover;
+                }
+
+                h3{
+                    @include tituloTexto(2rem);
+                    position: absolute;
+                    top: 1rem; right: 1rem;
+                    padding: .5rem 1.5rem;
+                    background: $trasparente;
+                    color: $preto;
+                }
+            }
+
+            .content{
+                padding: 2rem;
+                text-align: center;
+                border: $borda;
+            }
+
+            h3{
+                @include tituloTexto(2rem);
+            }
+
+            p{
+                padding: 1rem 0;
+                @include graphTexto(1.5rem);
+            }
+        } 
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -704,6 +770,28 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
     }
 }
 // FINAL DA SECTION FOOTER
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
