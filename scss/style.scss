@@ -700,6 +700,24 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
 }
 
 
+// COMEÇO SECTION CONTATO
+.contato{
+
+    .icons-container{
+        @include grid(25rem);
+
+        .icons{
+            text-align: center;
+            padding: 3rem 2rem;
+            border: $borda;
+            background: $verde-claro;
+        }
+    }
+}
+
+// FINAL SECTION CONTATO
+
+
 
 
 

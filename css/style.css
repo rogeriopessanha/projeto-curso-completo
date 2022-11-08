@@ -562,6 +562,18 @@ section {
   text-align: center;
 }
 
+.contato .icons-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 2rem;
+}
+.contato .icons-container .icons {
+  text-align: center;
+  padding: 3rem 2rem;
+  border: 0.1rem solid #0eb582;
+  background: #f0fdfa;
+}
+
 .footer {
   background: #f0fdfa;
 }
