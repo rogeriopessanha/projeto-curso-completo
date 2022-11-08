@@ -37,6 +37,14 @@ document.querySelector('#close-form').onclick = () =>{
 }
 
 
+document.querySelector('.carregar .btn').onclick = () =>{
+  document.querySelectorAll('.curso .box-container .hide').forEach(show =>{
+    show.style.display = 'block';
+  });
+  document.querySelector('.carregar .btn').style.display = 'none';
+};
+
+
 var swiper = new Swiper(".inicio-slider", {
     slidesPerView: 1,
         // spaceBetween: 30,
@@ -124,6 +132,9 @@ var swiper = new Swiper(".inicio-slider", {
         },
       },
   });
+
+
+
 
 
 

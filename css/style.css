@@ -509,6 +509,7 @@ section {
   overflow: hidden;
   position: relative;
   background: #f0fdfa;
+  margin-top: 10rem;
 }
 .curso .box-container .box .image img {
   height: 80%;
@@ -555,6 +556,10 @@ section {
 .curso .box-container .box .icons span i {
   color: #0eb582;
   padding-right: 0.5rem;
+}
+.curso .carregar {
+  margin-top: 2rem;
+  text-align: center;
 }
 
 .footer {
