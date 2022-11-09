@@ -563,7 +563,7 @@ section {
 }
 
 .contato .icons-container {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 2rem;

@@ -704,7 +704,7 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
 .contato{
 
     .icons-container{
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
         @include grid(25rem);
 
         .icons{
@@ -1156,6 +1156,7 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
 }
 
 
+
 // TELA PEQUENA
 @media (max-width: 450px){
 
@@ -1243,6 +1244,7 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
                 }
             }
         }
-    
     }
 }
+
+
