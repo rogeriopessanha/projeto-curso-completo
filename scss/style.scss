@@ -758,6 +758,28 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
                 @include tituloTexto(2.5rem);
                 padding-bottom: 1rem;
             }
+
+            .box{
+                width: 100%;
+                padding: 1.2rem 1.4rem;
+                border: $borda;
+                font-size: 1.6rem;
+                margin: .7rem 0;
+
+                &:focus{
+                    background: $verde;
+                    color: $branco;
+
+                    &::placeholder{
+                        color: $branco-claro;
+                    }
+                }
+            }
+
+            textarea{
+                height: 15rem;
+                resize: none;
+            }
         }
     }
 }

@@ -616,6 +616,24 @@ section {
   color: #444;
   padding-bottom: 1rem;
 }
+.contato .row form .box {
+  width: 100%;
+  padding: 1.2rem 1.4rem;
+  border: 0.1rem solid #0eb582;
+  font-size: 1.6rem;
+  margin: 0.7rem 0;
+}
+.contato .row form .box:focus {
+  background: #0eb582;
+  color: #fff;
+}
+.contato .row form .box:focus::placeholder {
+  color: #eee;
+}
+.contato .row form textarea {
+  height: 15rem;
+  resize: none;
+}
 
 .footer {
   background: #f0fdfa;
