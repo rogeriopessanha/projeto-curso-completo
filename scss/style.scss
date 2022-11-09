@@ -1370,7 +1370,7 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
             }
 
             .link{
-                @include graphTexto(2.4rem);
+                @include graphTexto(2rem);
                 padding: 1.6rem 0;
                 display: block;
 
@@ -1381,7 +1381,7 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
             }
 
             p{
-                @include graphTexto(2rem);
+                @include graphTexto(1.8rem);
                 padding: 1rem 0;
             }
 
