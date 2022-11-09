@@ -754,6 +754,19 @@ section {
   color: #0eb582;
 }
 
+/* WHATSAPP */
+.whats {
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+  z-index: 1000;
+}
+.whats img {
+  width: 5rem;
+  border-radius: 50%;
+}
+
+/* WHATSAPP */
 @media (max-width: 1200px) {
   .header {
     padding: 2rem 5%;
