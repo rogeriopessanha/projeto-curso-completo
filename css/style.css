@@ -816,26 +816,6 @@ section {
   font-size: 3rem;
   color: #444;
 }
-.inicio-cursos .slide .content {
-  position: absolute;
-  bottom: -100%;
-  right: 0;
-  left: 0;
-}
-.inicio-cursos .slide .content h3 {
-  font-size: 3rem;
-  color: #444;
-  color: #fff;
-}
-.inicio-cursos .slide .content p {
-  font-size: 1.8rem;
-  line-height: 2;
-  color: #444;
-  color: #fff;
-}
-.inicio-cursos .slide .content .btn:hover {
-  background: #444;
-}
 
 @media (max-width: 768px) {
   .header #menu-btn {

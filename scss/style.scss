@@ -1060,24 +1060,24 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
             }
         }
 
-        .content{
-            position: absolute;
-            bottom: -100%; right: 0; left: 0;
+        // .content{
+        //     position: absolute;
+        //     bottom: -100%; right: 0; left: 0;
 
-            h3{
-                @include tituloTexto(3rem);
-                color: $branco;
-            }
+        //     h3{
+        //         @include tituloTexto(3rem);
+        //         color: $branco;
+        //     }
 
-            p{
-                @include graphTexto(1.8rem);
-                color: $branco;
-            }
+        //     p{
+        //         @include graphTexto(1.8rem);
+        //         color: $branco;
+        //     }
 
-            .btn:hover{
-                background: $preto;
-            }
-        }
+        //     .btn:hover{
+        //         background: $preto;
+        //     }
+        // }
     }
 
 }
