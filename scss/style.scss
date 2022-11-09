@@ -1033,7 +1033,6 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
                     @include tituloTexto(3.5rem);
                     color: $preto;
                     font-weight: 900
-                    
                 }
     
                 p{
@@ -1042,7 +1041,6 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
                     padding: 1rem 0;
                     font-weight: 600
                 }
-    
             }
         }
     }
@@ -1141,7 +1139,7 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
 }
 
 .inicio{
-    padding: 5rem;
+    padding: 1rem;
     
     .slide{
         display: flex;
@@ -1151,30 +1149,22 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
         background-position: right !important;
 
         .content{
-            width: 40rem;
+
+            width: 35%;
 
             h3{
-                @include tituloTexto(3rem);
+                @include tituloTexto(2.5rem);
                 color: $preto;
                 font-weight: 900
                 
             }
 
             p{
-                @include graphTexto(1.8rem);
+                @include graphTexto(1.5rem);
                 color: $preto;
                 padding: 1rem 0;
                 font-weight: 600
             }
-
-            a{
-                
-                &:hover{
-                    background: $preto
-
-                }
-            }
-
         }
     }
 }
@@ -1232,6 +1222,7 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
 
 
 
+
 // TELA PEQUENA
 @media (max-width: 550px){
 
@@ -1250,19 +1241,36 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
 
 
     .inicio{
-        padding: 0;
+        padding: 1rem;
         
-    
         .slide{
             display: flex;
             align-items: center;
-            height: 50rem;
+            height: 20rem;
             background-size: contain !important;
-            background-position: center !important;
+            background-position: right !important;
     
             .content{
-                
-                display: none;
+    
+                width: 52%;
+    
+                h3{
+                    @include tituloTexto(2rem);
+                    color: $preto;
+                    font-weight: 900
+                    
+                }
+    
+                p{
+                    @include graphTexto(1.2rem);
+                    color: $preto;
+                    padding: 1rem 0;
+                    font-weight: 600
+                }
+
+                a{
+                    font-size: 1.2rem;
+                }
             }
         }
     }
@@ -1299,7 +1307,7 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
                 position: absolute;
                 bottom: -100%; right: 0; left: 0;
                 height: 40rem;
-                padding: 6rem;
+                padding: 3rem;
     
                 h3{
                     @include tituloTexto(3rem);
@@ -1315,6 +1323,11 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
                     background: $preto;
                 }
             }
+        }
+
+        .swiper-button-next,
+        .swiper-button-prev{
+            display: none;
         }
     }
 }

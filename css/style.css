@@ -851,7 +851,7 @@ section {
   }
 }
 .inicio {
-  padding: 5rem;
+  padding: 1rem;
 }
 .inicio .slide {
   display: flex;
@@ -861,24 +861,21 @@ section {
   background-position: right !important;
 }
 .inicio .slide .content {
-  width: 40rem;
+  width: 35%;
 }
 .inicio .slide .content h3 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #444;
   color: #444;
   font-weight: 900;
 }
 .inicio .slide .content p {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   line-height: 2;
   color: #444;
   color: #444;
   padding: 1rem 0;
   font-weight: 600;
-}
-.inicio .slide .content a:hover {
-  background: #444;
 }
 
 .inicio-cursos .slide {
@@ -914,17 +911,34 @@ section {
     font-size: 4rem;
   }
   .inicio {
-    padding: 0;
+    padding: 1rem;
   }
   .inicio .slide {
     display: flex;
     align-items: center;
-    height: 50rem;
+    height: 20rem;
     background-size: contain !important;
-    background-position: center !important;
+    background-position: right !important;
   }
   .inicio .slide .content {
-    display: none;
+    width: 52%;
+  }
+  .inicio .slide .content h3 {
+    font-size: 2rem;
+    color: #444;
+    color: #444;
+    font-weight: 900;
+  }
+  .inicio .slide .content p {
+    font-size: 1.2rem;
+    line-height: 2;
+    color: #444;
+    color: #444;
+    padding: 1rem 0;
+    font-weight: 600;
+  }
+  .inicio .slide .content a {
+    font-size: 1.2rem;
   }
   .inicio-cursos .slide {
     text-align: center;
@@ -953,7 +967,7 @@ section {
     right: 0;
     left: 0;
     height: 40rem;
-    padding: 6rem;
+    padding: 3rem;
   }
   .inicio-cursos .slide .content h3 {
     font-size: 3rem;
@@ -968,6 +982,10 @@ section {
   }
   .inicio-cursos .slide .content .btn:hover {
     background: #444;
+  }
+  .inicio-cursos .swiper-button-next,
+  .inicio-cursos .swiper-button-prev {
+    display: none;
   }
 }
 
