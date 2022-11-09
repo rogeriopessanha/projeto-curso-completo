@@ -814,6 +814,10 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
                         transform: rotate(180deg);
                     }
                 }
+
+                .perguntas-content{
+                    display: block;
+                }
             }
 
             .perguntas-titulo{

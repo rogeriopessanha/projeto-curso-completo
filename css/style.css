@@ -656,6 +656,9 @@ section {
   color: #fff;
   transform: rotate(180deg);
 }
+.faq .perguntas-container .perguntas.active .perguntas-content {
+  display: block;
+}
 .faq .perguntas-container .perguntas .perguntas-titulo {
   display: flex;
   align-items: center;

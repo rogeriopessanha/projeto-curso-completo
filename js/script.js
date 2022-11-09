@@ -129,15 +129,24 @@ var swiper = new Swiper(".inicio-slider", {
   });
 
 
+
+  let perguntas = document.querySelectorAll('.faq .perguntas-container .perguntas');
+
+  perguntas.forEach(perg =>{
+    perg.onclick = () =>{
+      perguntas.forEach(fechar => fechar.classList.remove('active'));
+      perg.classList.toggle('active');
+    };
+  });
+
+
+
   document.querySelector('.carregar .btn').onclick = () =>{
     document.querySelectorAll('.cursos .box-container .hide').forEach(show =>{
       show.style.display = 'block';
     });
     document.querySelector('.carregar .btn').style.display = 'none';
   };
-
-
-  
 
 
 
