@@ -1239,7 +1239,6 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
     }
 
 
-
     .inicio{
         padding: 1rem;
         
@@ -1295,7 +1294,6 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
     
                 img{
                     width: 80%;
-                    // margin-bottom: 2.5rem;
                 }
     
                 h3{
@@ -1328,6 +1326,84 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
         .swiper-button-next,
         .swiper-button-prev{
             display: none;
+        }
+    }
+}
+
+
+.footer{
+
+    background: $verde-claro;
+
+    .box-container{
+        @include grid(35rem);
+
+        .box{
+
+            h3{
+                @include tituloTexto(2.2rem);
+                padding: 2rem 0;
+
+                i{
+                    color: $verde;
+                }
+            }
+
+            .redes-social{
+                margin-top: 2rem;
+
+                a{
+                    height: 3.5rem;
+                    width: 3.5rem;
+                    line-height: 3.5rem;
+                    font-size: 1.7rem;
+                    background: $verde;
+                    color: $branco;
+                    margin-right: 1.8rem;
+                    text-align: center;
+
+                    &:hover{
+                        background: $branco;
+                        color: $verde
+                    }
+                }
+            }
+
+            .link{
+                @include graphTexto(1.6rem);
+                padding: 1.5rem 0;
+                display: block;
+
+                &:hover{
+                    color: $verde;
+                    text-decoration: underline;
+                }
+            }
+
+            p{
+                @include graphTexto(1.6rem);
+                padding: 1rem 0;
+            }
+
+            .email{
+                width: 100%;
+                padding: 1.2rem 1.4rem;
+                font-size: 1.6rem;
+                border: $borda;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+
+    .credito{
+        text-align: center;
+        margin-top: 3rem;
+        padding-top: 3rem;
+        @include tituloTexto(2rem);
+        border-top: $borda;
+
+        span{
+            color: $verde;
         }
     }
 }
