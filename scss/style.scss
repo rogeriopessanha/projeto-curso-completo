@@ -784,11 +784,65 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
         }
     }
 }
-
 // FINAL SECTION CONTATO
 
 
+.faq{
 
+    .perguntas-container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        align-items: flex-start;
+
+        .perguntas{
+            flex: 1 1 40rem;
+            border: $borda;
+
+            &.active{
+
+                .perguntas-titulo{
+
+                    background: $verde;
+
+                    h3{
+                        color: $branco;
+                    }
+
+                    i{
+                        color: $branco;
+                        transform: rotate(180deg);
+                    }
+                }
+            }
+
+            .perguntas-titulo{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 1rem;
+                cursor: pointer;
+                padding: 1.5rem;
+
+                h3{
+                    @include tituloTexto(2rem);
+                }
+
+                i{
+                    font-size: 2rem;
+                    color: $verde;
+                }
+            }
+
+            .perguntas-content{
+                padding: 1.5rem;
+                @include graphTexto(1.5rem);
+                border-top: $borda;
+                display: none;
+            }
+        }
+    }
+}
 
 
 

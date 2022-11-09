@@ -636,6 +636,51 @@ section {
   resize: none;
 }
 
+.faq .perguntas-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: flex-start;
+}
+.faq .perguntas-container .perguntas {
+  flex: 1 1 40rem;
+  border: 0.1rem solid #0eb582;
+}
+.faq .perguntas-container .perguntas.active .perguntas-titulo {
+  background: #0eb582;
+}
+.faq .perguntas-container .perguntas.active .perguntas-titulo h3 {
+  color: #fff;
+}
+.faq .perguntas-container .perguntas.active .perguntas-titulo i {
+  color: #fff;
+  transform: rotate(180deg);
+}
+.faq .perguntas-container .perguntas .perguntas-titulo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  cursor: pointer;
+  padding: 1.5rem;
+}
+.faq .perguntas-container .perguntas .perguntas-titulo h3 {
+  font-size: 2rem;
+  color: #444;
+}
+.faq .perguntas-container .perguntas .perguntas-titulo i {
+  font-size: 2rem;
+  color: #0eb582;
+}
+.faq .perguntas-container .perguntas .perguntas-content {
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #444;
+  border-top: 0.1rem solid #0eb582;
+  display: none;
+}
+
 .footer {
   background: #f0fdfa;
 }
