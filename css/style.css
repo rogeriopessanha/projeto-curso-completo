@@ -901,7 +901,7 @@ section {
   color: #444;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 550px) {
   html {
     font-size: 50%;
   }

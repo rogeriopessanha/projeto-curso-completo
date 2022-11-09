@@ -302,6 +302,7 @@ section{
 // COMEÇO DA SECTION INICIO
 .inicio{
     padding: 5rem;
+
     background: rgb(14,181,130);
 background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 100%);
 
@@ -1219,7 +1220,7 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
 
 
 // TELA PEQUENA
-@media (max-width: 450px){
+@media (max-width: 550px){
 
     html{
         font-size: 50%;
@@ -1249,8 +1250,6 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
             .content{
                 
                 display: none;
-    
-    
             }
         }
     }
