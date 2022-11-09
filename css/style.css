@@ -602,6 +602,7 @@ section {
 }
 .contato .row .image {
   flex: 1 1 40rem;
+  transform: rotateY(180deg);
 }
 .contato .row .image img {
   width: 100%;
