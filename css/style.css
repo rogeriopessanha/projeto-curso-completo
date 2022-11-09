@@ -331,16 +331,17 @@ section {
   right: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.8);
-  padding: 2rem 3rem;
+  height: 46rem;
+  padding: 6rem;
 }
 .inicio-cursos .slide .content h3 {
-  font-size: 2rem;
+  font-size: 3.4rem;
   color: #444;
   color: #fff;
 }
 .inicio-cursos .slide .content p {
   padding: 1rem 0;
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: 2;
   color: #444;
   color: #eee;
@@ -899,28 +900,6 @@ section {
   font-size: 3rem;
   color: #444;
 }
-.inicio-cursos .slide .content {
-  position: absolute;
-  bottom: -100%;
-  right: 0;
-  left: 0;
-  height: 46rem;
-  padding: 6rem;
-}
-.inicio-cursos .slide .content h3 {
-  font-size: 3rem;
-  color: #444;
-  color: #fff;
-}
-.inicio-cursos .slide .content p {
-  font-size: 2rem;
-  line-height: 2;
-  color: #444;
-  color: #fff;
-}
-.inicio-cursos .slide .content .btn:hover {
-  background: #0eb582;
-}
 
 @media (max-width: 450px) {
   html {
@@ -971,7 +950,6 @@ section {
     bottom: -100%;
     right: 0;
     left: 0;
-    background: rgba(14, 181, 131, 0.7333333333);
     height: 40rem;
     padding: 6rem;
   }

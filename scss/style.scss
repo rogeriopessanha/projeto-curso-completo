@@ -419,16 +419,18 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
             position: absolute;
             bottom: -100%; right: 0; left: 0;
             background: rgba(0, 0, 0, .8);
-            padding: 2rem 3rem;
+            // padding: 2rem 3rem;
+            height: 46rem;
+            padding: 6rem;
 
             h3{
-                @include tituloTexto(2rem);
+                @include tituloTexto(3.4rem);
                 color: $branco;
             }
 
             p{
                 padding: 1rem 0;
-                @include graphTexto(1.5rem);
+                @include graphTexto(2rem);
                 color: $branco-claro;
             }
 
@@ -1190,26 +1192,26 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
             }
         }
 
-        .content{
-            position: absolute;
-            bottom: -100%; right: 0; left: 0;
-            height: 46rem;
-                padding: 6rem;
+        // .content{
+        //     position: absolute;
+        //     bottom: -100%; right: 0; left: 0;
+        //     height: 46rem;
+        //         padding: 6rem;
 
-            h3{
-                @include tituloTexto(3rem);
-                color: $branco;
-            }
+        //     h3{
+        //         @include tituloTexto(3rem);
+        //         color: $branco;
+        //     }
 
-            p{
-                @include graphTexto(2rem);
-                color: $branco;
-            }
+        //     p{
+        //         @include graphTexto(2rem);
+        //         color: $branco;
+        //     }
 
-            .btn:hover{
-                background: $verde;
-            }
-        }
+        //     .btn:hover{
+        //         background: $verde;
+        //     }
+        // }
     }
 
 }
@@ -1284,7 +1286,6 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
             .content{
                 position: absolute;
                 bottom: -100%; right: 0; left: 0;
-                background: #0eb583bb;
                 height: 40rem;
                 padding: 6rem;
     
