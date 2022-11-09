@@ -1341,7 +1341,7 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
         .box{
 
             h3{
-                @include tituloTexto(2.2rem);
+                @include tituloTexto(2.6rem);
                 padding: 2rem 0;
 
                 i{
@@ -1370,8 +1370,8 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
             }
 
             .link{
-                @include graphTexto(1.6rem);
-                padding: 1.5rem 0;
+                @include graphTexto(2.4rem);
+                padding: 1.6rem 0;
                 display: block;
 
                 &:hover{
@@ -1381,7 +1381,7 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
             }
 
             p{
-                @include graphTexto(1.6rem);
+                @include graphTexto(2rem);
                 padding: 1rem 0;
             }
 
