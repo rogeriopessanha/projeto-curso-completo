@@ -405,11 +405,11 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
         }
 
         .image{
-            // padding: 2rem;
+            padding: 2rem;
 
             img{
                 width: 100%;
-                // margin-bottom: 1.5rem;
+                margin-bottom: 1.5rem;
             }
         }
 
@@ -418,23 +418,23 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
             position: absolute;
             bottom: -100%; right: 0; left: 0;
             background: rgba(0, 0, 0, .8);
-            height: 20rem;
-            // padding: 3rem;
+            height: 40rem;
+            padding: 1.2rem;
             
 
             h3{
-                @include tituloTexto(1rem);
+                @include tituloTexto(2.6rem);
                 color: $branco;
             }
 
             p{
-                // padding: 1rem 0;
-                @include graphTexto(1rem);
+                padding: 2rem;
+                @include graphTexto(1.5rem);
                 color: $branco-claro;
             }
 
             .btn:hover{
-                background: $preto;
+                background: $verde;
             }
         }
     }
@@ -1063,7 +1063,37 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
             }
         }
     }
-}
+
+
+    // .inicio-cursos{
+
+    //     .slide{
+            
+    //         .content{
+    //                 position: absolute;
+    //                 bottom: -100%; right: 0; left: 0;
+    //                 height: 40rem;
+    //                 padding: 11rem;
+        
+    //                 h3{
+    //                     @include tituloTexto(1rem);
+    //                     color: $branco;
+    //                 }
+        
+    //                 p{
+    //                     @include graphTexto(1rem);
+    //                     color: $branco;
+    //                 }
+        
+    //                 .btn:hover{
+    //                     background: $verde;
+    //                 }
+    //             }
+    //         }
+    //     }
+    }
+    
+
 
 
 
@@ -1139,52 +1169,52 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
     }
 }
 
-.inicio-cursos{
+// .inicio-cursos{
 
-    .slide{
-        text-align: center;
-        position: relative;
-        background: $verde-claro;
-        overflow: hidden;
-        height: 40rem;
+//     .slide{
+//         text-align: center;
+//         position: relative;
+//         background: $verde-claro;
+//         overflow: hidden;
+//         height: 40rem;
 
-        &:hover .content{
-            bottom: 0;
-        }
+//         &:hover .content{
+//             bottom: 0;
+//         }
 
-        .image{
-            // padding: 4rem;
-            // margin: 1rem;
+//         .image{
+//             // padding: 4rem;
+//             // margin: 1rem;
 
-            img{
-                width: 100%;
-            }
-        }
+//             img{
+//                 width: 100%;
+//             }
+//         }
 
-        .content{
-            position: absolute;
-            bottom: -100%; right: 0; left: 0;
-            height: 40rem;
-            padding: 1rem;
+//         .content{
+//             position: absolute;
+//             bottom: -100%; right: 0; left: 0;
+//             height: 40rem;
+//             padding: 1rem;
 
-            h3{
-                @include tituloTexto(3rem);
-                color: $branco;
-            }
+//             h3{
+//                 @include tituloTexto(3rem);
+//                 color: $branco;
+//             }
 
-            p{
-                @include graphTexto(2rem);
-                color: $branco;
-            }
+//             p{
+//                 @include graphTexto(2rem);
+//                 color: $branco;
+//             }
 
-            .btn:hover{
-                background: $preto;
-            }
-        }
+//             .btn:hover{
+//                 background: $verde;
+//             }
+//         }
 
-    }
+//     }
 
-}
+// }
 
 
 
@@ -1285,17 +1315,17 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
                 padding: 1rem;
     
                 h3{
-                    @include tituloTexto(3.2rem);
+                    @include tituloTexto(2.6rem);
                     color: $branco;
                 }
     
                 p{
-                    @include graphTexto(2rem);
+                    @include graphTexto(1.8rem);
                     color: $branco;
                 }
     
                 .btn:hover{
-                    background: $preto;
+                    background: $verde;
                 }
             }
         }

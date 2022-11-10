@@ -312,8 +312,12 @@ section {
 .inicio-cursos .slide:hover .content {
   bottom: 0;
 }
+.inicio-cursos .slide .image {
+  padding: 2rem;
+}
 .inicio-cursos .slide .image img {
   width: 100%;
+  margin-bottom: 1.5rem;
 }
 .inicio-cursos .slide .content {
   position: absolute;
@@ -321,21 +325,23 @@ section {
   right: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.8);
-  height: 20rem;
+  height: 40rem;
+  padding: 1.2rem;
 }
 .inicio-cursos .slide .content h3 {
-  font-size: 1rem;
+  font-size: 2.6rem;
   color: #444;
   color: #fff;
 }
 .inicio-cursos .slide .content p {
-  font-size: 1rem;
+  padding: 2rem;
+  font-size: 1.5rem;
   line-height: 2;
   color: #444;
   color: #eee;
 }
 .inicio-cursos .slide .content .btn:hover {
-  background: #444;
+  background: #0eb582;
 }
 
 .sobre {
@@ -844,42 +850,6 @@ section {
   font-weight: 600;
 }
 
-.inicio-cursos .slide {
-  text-align: center;
-  position: relative;
-  background: #f0fdfa;
-  overflow: hidden;
-  height: 40rem;
-}
-.inicio-cursos .slide:hover .content {
-  bottom: 0;
-}
-.inicio-cursos .slide .image img {
-  width: 100%;
-}
-.inicio-cursos .slide .content {
-  position: absolute;
-  bottom: -100%;
-  right: 0;
-  left: 0;
-  height: 40rem;
-  padding: 1rem;
-}
-.inicio-cursos .slide .content h3 {
-  font-size: 3rem;
-  color: #444;
-  color: #fff;
-}
-.inicio-cursos .slide .content p {
-  font-size: 2rem;
-  line-height: 2;
-  color: #444;
-  color: #fff;
-}
-.inicio-cursos .slide .content .btn:hover {
-  background: #444;
-}
-
 @media (max-width: 550px) {
   html {
     font-size: 50%;
@@ -951,18 +921,18 @@ section {
     padding: 1rem;
   }
   .inicio-cursos .slide .content h3 {
-    font-size: 3.2rem;
+    font-size: 2.6rem;
     color: #444;
     color: #fff;
   }
   .inicio-cursos .slide .content p {
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 2;
     color: #444;
     color: #fff;
   }
   .inicio-cursos .slide .content .btn:hover {
-    background: #444;
+    background: #0eb582;
   }
   .inicio-cursos .swiper-button-next,
   .inicio-cursos .swiper-button-prev {
