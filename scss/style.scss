@@ -1211,29 +1211,28 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
         .slide{
             display: flex;
             align-items: center;
-            height: 30rem;
+            height: 25rem;
             background-size: contain !important;
-            background-position: center !important;
+            background-position: right !important;
     
             .content{
     
-                display: none;
-                // width: 52%;
+                width: 40%;
     
-                // h3{
-                //     @include tituloTexto(2rem);
-                //     color: $preto
-                // }
+                h3{
+                    @include tituloTexto(2rem);
+                    color: $preto
+                }
     
-                // p{
-                //     @include graphTexto(1.2rem);
-                //     color: $preto;
-                //     // padding: 1rem 0;
-                // }
+                p{
+                    @include graphTexto(1.2rem);
+                    color: $preto;
+                    padding: 1rem 0;
+                }
 
-                // a{
-                //     font-size: 1.2rem;
-                // }
+                a{
+                    font-size: 1.2rem;
+                }
             }
         }
     }

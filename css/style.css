@@ -896,12 +896,27 @@ section {
   .inicio .slide {
     display: flex;
     align-items: center;
-    height: 30rem;
+    height: 25rem;
     background-size: contain !important;
-    background-position: center !important;
+    background-position: right !important;
   }
   .inicio .slide .content {
-    display: none;
+    width: 40%;
+  }
+  .inicio .slide .content h3 {
+    font-size: 2rem;
+    color: #444;
+    color: #444;
+  }
+  .inicio .slide .content p {
+    font-size: 1.2rem;
+    line-height: 2;
+    color: #444;
+    color: #444;
+    padding: 1rem 0;
+  }
+  .inicio .slide .content a {
+    font-size: 1.2rem;
   }
   .inicio-cursos .slide {
     text-align: center;
