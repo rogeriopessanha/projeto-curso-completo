@@ -1211,7 +1211,7 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
         .slide{
             display: flex;
             align-items: center;
-            height: 25rem;
+            height: 28rem;
             background-size: contain !important;
             background-position: right !important;
     
@@ -1227,7 +1227,7 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
                 p{
                     @include graphTexto(1.2rem);
                     color: $preto;
-                    padding: 1rem 0;
+                    // padding: 1rem ;
                 }
 
                 a{
