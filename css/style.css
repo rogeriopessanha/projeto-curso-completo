@@ -909,37 +909,32 @@ section {
     position: relative;
     background: #f0fdfa;
     overflow: hidden;
-    height: 40rem;
+    height: 45rem;
   }
   .inicio-cursos .slide:hover .content {
     bottom: 0;
-  }
-  .inicio-cursos .slide .image {
-    padding: 4rem;
-    margin: 1rem;
   }
   .inicio-cursos .slide .image img {
     width: 80%;
   }
   .inicio-cursos .slide .image h3 {
-    font-size: 3rem;
-    color: #444;
+    display: none;
   }
   .inicio-cursos .slide .content {
     position: absolute;
     bottom: -100%;
     right: 0;
     left: 0;
-    height: 40rem;
+    height: 45rem;
     padding: 3rem;
   }
   .inicio-cursos .slide .content h3 {
-    font-size: 3rem;
+    font-size: 3.2rem;
     color: #444;
     color: #fff;
   }
   .inicio-cursos .slide .content p {
-    font-size: 1.8rem;
+    font-size: 2rem;
     line-height: 2;
     color: #444;
     color: #fff;
@@ -950,6 +945,25 @@ section {
   .inicio-cursos .swiper-button-next,
   .inicio-cursos .swiper-button-prev {
     display: none;
+  }
+  .materias .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 2rem;
+  }
+  .materias .box-container .box img {
+    height: 6rem;
+    margin-bottom: 0.5rem;
+  }
+  .materias .box-container .box h3 {
+    font-size: 1.8rem;
+    color: #444;
+    padding: 0.5rem 0;
+  }
+  .materias .box-container .box p {
+    font-size: 1.5rem;
+    line-height: 2;
+    color: #444;
   }
   .footer {
     background: #f0fdfa;
