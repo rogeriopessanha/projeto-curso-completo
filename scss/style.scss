@@ -398,39 +398,38 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
         position: relative;
         background: $verde-claro;
         overflow: hidden;
+        height: 40rem;
 
         &:hover .content{
             bottom: 0;
         }
 
-        // .image{
-        //     padding: 2rem;
+        .image{
+            // padding: 2rem;
 
-        //     img{
-        //         width: 100%;
-        //         margin-bottom: 1.5rem;
-        //     }
-
-        //     h3{
-        //         @include tituloTexto(2rem);
-        //     }
-        // }
+            img{
+                width: 100%;
+                // margin-bottom: 1.5rem;
+            }
+        }
 
         .content{
+
             position: absolute;
             bottom: -100%; right: 0; left: 0;
             background: rgba(0, 0, 0, .8);
-            height: 46rem;
-            padding: 3rem;
+            height: 20rem;
+            // padding: 3rem;
+            
 
             h3{
-                @include tituloTexto(3rem);
+                @include tituloTexto(1rem);
                 color: $branco;
             }
 
             p{
-                padding: 1rem 0;
-                @include graphTexto(1.8rem);
+                // padding: 1rem 0;
+                @include graphTexto(1rem);
                 color: $branco-claro;
             }
 
@@ -439,7 +438,6 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
             }
         }
     }
-
 }
 // FINAL DA SECTION INICIO-CURSOS
 
@@ -1148,46 +1146,42 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
         position: relative;
         background: $verde-claro;
         overflow: hidden;
-        height: 46rem;
+        height: 40rem;
 
         &:hover .content{
             bottom: 0;
         }
 
         .image{
-            padding: 4rem;
-            margin: 1rem;
+            // padding: 4rem;
+            // margin: 1rem;
 
             img{
                 width: 100%;
-                // margin-bottom: 2.5rem;
-            }
-
-            h3{
-                @include tituloTexto(3rem);
             }
         }
 
-        // .content{
-        //     position: absolute;
-        //     bottom: -100%; right: 0; left: 0;
-        //     height: 46rem;
-        //         padding: 6rem;
+        .content{
+            position: absolute;
+            bottom: -100%; right: 0; left: 0;
+            height: 40rem;
+            padding: 1rem;
 
-        //     h3{
-        //         @include tituloTexto(3rem);
-        //         color: $branco;
-        //     }
+            h3{
+                @include tituloTexto(3rem);
+                color: $branco;
+            }
 
-        //     p{
-        //         @include graphTexto(2rem);
-        //         color: $branco;
-        //     }
+            p{
+                @include graphTexto(2rem);
+                color: $branco;
+            }
 
-        //     .btn:hover{
-        //         background: $verde;
-        //     }
-        // }
+            .btn:hover{
+                background: $preto;
+            }
+        }
+
     }
 
 }
@@ -1254,7 +1248,7 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
             position: relative;
             background: $verde-claro;
             overflow: hidden;
-            height: 45rem;
+            height: 40rem;
     
             &:hover .content{
                 bottom: 0;
@@ -1269,17 +1263,13 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
                 img{
                     width: 80%;
                 }
-    
-                h3{
-                    display: none;
-                }
             }
     
             .content{
                 position: absolute;
                 bottom: -100%; right: 0; left: 0;
-                height: 45rem;
-                padding: 3rem;
+                height: 40rem;
+                padding: 1rem;
     
                 h3{
                     @include tituloTexto(3.2rem);
