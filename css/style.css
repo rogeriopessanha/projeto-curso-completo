@@ -318,7 +318,7 @@ section {
   left: 0;
   background: rgba(0, 0, 0, 0.8);
   height: 46rem;
-  padding: 5.5rem;
+  padding: 3rem;
 }
 .inicio-cursos .slide .content h3 {
   font-size: 3rem;
@@ -784,28 +784,6 @@ section {
     font-weight: 600;
   }
 }
-.inicio-cursos .slide {
-  text-align: center;
-  position: relative;
-  background: #f0fdfa;
-  overflow: hidden;
-  height: 40rem;
-}
-.inicio-cursos .slide:hover .content {
-  bottom: 0;
-}
-.inicio-cursos .slide .image {
-  padding: 4rem;
-  margin: 1rem;
-}
-.inicio-cursos .slide .image img {
-  width: 80%;
-}
-.inicio-cursos .slide .image h3 {
-  font-size: 3rem;
-  color: #444;
-}
-
 @media (max-width: 768px) {
   .header #menu-btn {
     display: inline-block;

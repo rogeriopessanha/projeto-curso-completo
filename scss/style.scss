@@ -420,9 +420,8 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
             position: absolute;
             bottom: -100%; right: 0; left: 0;
             background: rgba(0, 0, 0, .8);
-            // padding: 3.5rem 3rem;
             height: 46rem;
-            padding: 5.5rem;
+            padding: 3rem;
 
             h3{
                 @include tituloTexto(3rem);
@@ -1071,29 +1070,29 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
 .inicio-cursos{
 
     .slide{
-        text-align: center;
-        position: relative;
-        background: $verde-claro;
-        overflow: hidden;
-        height: 40rem;
+        // text-align: center;
+        // position: relative;
+        // background: $verde-claro;
+        // overflow: hidden;
+        // height: 40rem;
 
-        &:hover .content{
-            bottom: 0;
-        }
+        // &:hover .content{
+        //     bottom: 0;
+        // }
 
-        .image{
-            padding: 4rem;
-            margin: 1rem;
+        // .image{
+        //     padding: 4rem;
+        //     margin: 1rem;
 
-            img{
-                width: 80%;
-                // margin-bottom: 2.5rem;
-            }
+        //     img{
+        //         width: 80%;
+        //         // margin-bottom: 2.5rem;
+        //     }
 
-            h3{
-                @include tituloTexto(3rem);
-            }
-        }
+        //     h3{
+        //         @include tituloTexto(3rem);
+        //     }
+        // }
 
         // .content{
         //     position: absolute;
