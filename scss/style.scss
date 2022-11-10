@@ -117,16 +117,16 @@ section{
 .swiper-button-next,
 .swiper-button-prev {
     border: $borda;
-    border-radius: 50%;
-    height: 5rem;
-    width: 5rem;
+    // border-radius: 10%;
+    // height: 3rem;
+    // width: 3rem;
     color: $verde;
     background: rgba(255, 255, 255, 0.203);
 }
 
 .swiper-button-next::after,
 .swiper-button-prev::after {
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 .swiper-button-next:hover,
@@ -403,35 +403,35 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
             bottom: 0;
         }
 
-        .image{
-            padding: 2rem;
+        // .image{
+        //     padding: 2rem;
 
-            img{
-                width: 100%;
-                margin-bottom: 1.5rem;
-            }
+        //     img{
+        //         width: 100%;
+        //         margin-bottom: 1.5rem;
+        //     }
 
-            h3{
-                @include tituloTexto(2rem);
-            }
-        }
+        //     h3{
+        //         @include tituloTexto(2rem);
+        //     }
+        // }
 
         .content{
             position: absolute;
             bottom: -100%; right: 0; left: 0;
             background: rgba(0, 0, 0, .8);
-            // padding: 2rem 3rem;
+            // padding: 3.5rem 3rem;
             height: 46rem;
-            padding: 4rem;
+            padding: 5.5rem;
 
             h3{
-                @include tituloTexto(3.4rem);
+                @include tituloTexto(3rem);
                 color: $branco;
             }
 
             p{
                 padding: 1rem 0;
-                @include graphTexto(2rem);
+                @include graphTexto(1.8rem);
                 color: $branco-claro;
             }
 
@@ -519,7 +519,7 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
             .image{
 
                 img{
-                    background: $verde;
+                    background: rgba(0, 0, 0, .8);
                 }
 
                 .redes-social{
@@ -570,6 +570,27 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
             }
         }
     }
+
+        // .swiper-button-next,
+        // .swiper-button-prev {
+        //     border: $borda;
+        //     border-radius: 10%;
+        //     height: 5rem;
+        //     width: 5rem;
+        //     color: $verde;
+        //     background: rgba(255, 255, 255, 0.203);
+        // }
+
+        // .swiper-button-next::after,
+        // .swiper-button-prev::after {
+        //     font-size: 3.5rem;
+        // }
+
+        // .swiper-button-next:hover,
+        // .swiper-button-prev:hover {
+        //     background: $verde;
+        //     color: $branco;
+        // }
 }
 // FINAL DA SECTION PROFESSORES NA PAGINA SOBRE NÓS
 
@@ -1079,12 +1100,12 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
         //     bottom: -100%; right: 0; left: 0;
 
         //     h3{
-        //         @include tituloTexto(3rem);
+        //         @include tituloTexto(2.5rem);
         //         color: $branco;
         //     }
 
         //     p{
-        //         @include graphTexto(1.8rem);
+        //         @include graphTexto(1.5rem);
         //         color: $branco;
         //     }
 
