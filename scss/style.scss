@@ -1211,27 +1211,43 @@ background: linear-gradient(90deg, rgba(14,181,130,1) 0%, rgba(174,231,218,1) 10
         .slide{
             display: flex;
             align-items: center;
-            height: 28rem;
+            height: 20rem;
             background-size: contain !important;
             background-position: right !important;
     
             .content{
     
-                width: 40%;
+                width: 50%;
     
                 h3{
-                    @include tituloTexto(2rem);
+                    @include tituloTexto(1.6rem);
                     color: $preto
                 }
     
                 p{
-                    @include graphTexto(1.2rem);
+                    @include graphTexto(1.1rem);
                     color: $preto;
                     // padding: 1rem ;
                 }
 
                 a{
                     font-size: 1.2rem;
+                }
+
+                .btn{
+                    // margin-bottom: .1rem;
+                    padding: .4rem;
+                    font-size: 1.2rem;
+                    border: $borda;
+                    background: $verde-claro;
+                    color: $verde;
+                    cursor: pointer;
+                
+                    &:hover{
+                        background: $preto;
+                        color: $branco;
+                    }
+                
                 }
             }
         }

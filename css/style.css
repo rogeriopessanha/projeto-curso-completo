@@ -896,26 +896,38 @@ section {
   .inicio .slide {
     display: flex;
     align-items: center;
-    height: 28rem;
+    height: 20rem;
     background-size: contain !important;
     background-position: right !important;
   }
   .inicio .slide .content {
-    width: 40%;
+    width: 50%;
   }
   .inicio .slide .content h3 {
-    font-size: 2rem;
+    font-size: 1.6rem;
     color: #444;
     color: #444;
   }
   .inicio .slide .content p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 2;
     color: #444;
     color: #444;
   }
   .inicio .slide .content a {
     font-size: 1.2rem;
+  }
+  .inicio .slide .content .btn {
+    padding: 0.4rem;
+    font-size: 1.2rem;
+    border: 0.1rem solid #0eb582;
+    background: #f0fdfa;
+    color: #0eb582;
+    cursor: pointer;
+  }
+  .inicio .slide .content .btn:hover {
+    background: #444;
+    color: #fff;
   }
   .inicio-cursos .slide {
     text-align: center;
