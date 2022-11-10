@@ -676,28 +676,28 @@ section {
 }
 .footer .box-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
   gap: 2rem;
 }
 .footer .box-container .box h3 {
-  font-size: 2.2rem;
+  font-size: 2.6rem;
   color: #444;
-  padding: 1rem 0;
+  padding: 2rem 0;
 }
 .footer .box-container .box h3 i {
   color: #0eb582;
 }
 .footer .box-container .box .redes-social {
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 .footer .box-container .box .redes-social a {
-  height: 3.5rem;
-  width: 3.5rem;
-  line-height: 3.5rem;
-  font-size: 1.7rem;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4rem;
+  font-size: 2.5rem;
   background: #0eb582;
   color: #fff;
-  margin-right: 0.3rem;
+  margin-right: 1.8rem;
   text-align: center;
 }
 .footer .box-container .box .redes-social a:hover {
@@ -705,10 +705,10 @@ section {
   color: #0eb582;
 }
 .footer .box-container .box .link {
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: 2;
   color: #444;
-  padding: 0.5rem 0;
+  padding: 1.6rem 0;
   display: block;
 }
 .footer .box-container .box .link:hover {
@@ -716,7 +716,7 @@ section {
   text-decoration: underline;
 }
 .footer .box-container .box p {
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: 2;
   color: #444;
   padding: 1rem 0;
@@ -727,17 +727,6 @@ section {
   font-size: 1.6rem;
   border: 0.1rem solid #0eb582;
   margin-bottom: 1rem;
-}
-.footer .credito {
-  text-align: center;
-  margin-top: 3rem;
-  padding-top: 3rem;
-  font-size: 2rem;
-  color: #444;
-  border-top: 0.1rem solid #0eb582;
-}
-.footer .credito span {
-  color: #0eb582;
 }
 
 /* WHATSAPP */
