@@ -1,4 +1,4 @@
-# projeto-curso-completo
+# projeto-curso online
 
 - Link para o projeto: [Projeto curso online](https://rogeriopessanha.github.io/projeto-curso-completo/)
 
