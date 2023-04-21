@@ -4,8 +4,7 @@
 
 # Sobre o projeto
 
-Projeto de um site de cursos online com uma interface intuitiva e de agradável navegação.</br>
-Site responsivo, funcionando tanto em desktop, tablet e mobile.
+### Este é um projeto de site de cursos online desenvolvido utilizando HTML, SCSS, JavaScript e Swiper. O site é responsivo e se adapta a diferentes tamanhos de tela, proporcionando uma ótima experiência de navegação para o usuário.
 
 # Funcionamento do projeto
 
